@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redbus</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--navigation-->
+
+    <div class=" nav-logo justify-content-between" style="background-color:#fff;position: static;">
+        <div class="nav-top" style="width: 230px;">
+            <img style="padding-top: 20px; padding-left:100px ; margin-bottom: 10px;" src="https://st.redbus.in/Images/rdc/rdc-redbus-logo.svg" alt="redBus" class="rb_logo">
+            <div class="nav-option" style="margin-left: 200px; align-items: center; display: block; padding-top: 15px;">
+            <div class="but">
+              <button onclick = "window.location.href='bussearch.html';" style="border-color: transparent; background-color: transparent;">
+                <img src="https://st.redbus.in/web/images/layout/rb_vertical.svg" alt=""><p style="width:90px; padding-top: 5px;">Bus Tickets</p>
+               </button>
+            </div>
+              
+               </div>
+          
+          </div>
+       
+          <div class="navigation ">
+            <div class=" d-flex" style="gap: 30px; padding-top: 10px;">
+                <p><i class="fa-solid fa-headset"></i><a href="#" class="link"><span style="padding-left: 5px;">Help</span></a></p>
+               
+               
+            </div>
+          
+           <div class="dropdown" style="padding-top: 7px;">
+            <i class="fa-solid fa-user" style="padding-right: 10px;"></i><button  class="account dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="border-color: transparent; background-color: #fff;" >
+    Account
+  </button>
+  <ul class="dropdown-menu">
+    <li><button class="dropdown-item" type="button">Cancel Ticket</button></li>
+    <li><button class="dropdown-item" type="button">Booking History</button></li>
+    <li><button type="button" class="dropdown-item"><a href="#" class="link">log-in / Sign-up</a></button></li>
+  </ul>
+</div>
+            </div>
+        
+           
+    </div>
+<!--Section-->
+    <div class="hero">
+      <div class="search-main" >
+<div class="search-from d-flex">
+  <i class="fa-solid fa-bus" style="padding-top: 40px;padding-left: 10px; font-size: 25px;"></i>
+  <div class="form-floating" style="width: 100%;">
+    <input type="text" style="height: 100%;border-color: transparent;font-weight: 500;font-size: 20px;" class="form-control" id="floatingPassword" placeholder="Password">
+    <label for="floatingPassword" style="padding-top: 35px;font-size: 18px;font-weight: 500;">From</label>
+  </div>
+</div>
+<div class="search-to d-flex">
+  <i class="fa-solid fa-bus" style="padding-top: 40px; padding-left: 10px; font-size: 25px;"></i>
+  <div class="form-floating" style="width: 100%;">
+    <input type="text" style="height: 100%;border-color: transparent; font-weight: 500;font-size: 20px;" class="form-control" id="floatingPassword" placeholder="Password">
+    <label for="floatingPassword" style="padding-top: 35px;font-size: 18px;font-weight: 500;">To</label>
+  </div>
+</div>
+<div class="Date d-flex">
+  <i class="fa-solid fa-calendar-days" style="font-size: 25px;padding-left: 10px; padding-top: 40px;"></i>
+  <div style="padding-top: 20px; padding-left: 10px; ">
+    <label for="" style="font-size: 20px;font-weight: 400;">Date</label>
+    <input type="date" name="date" id="" style="border-color: transparent; font-weight: 500;font-size: 20px;">
+  </div>
+</div>
+<div class="Searchbuses">
+<P style="font-size: 20px;text-align: center;padding-top: 40px;font-family:sans-serif ; color: white;font-weight: 700;cursor: pointer; " onclick = "window.location.href='bussearch.html';" >SEARCH BUSES</P>
+</div>
+      </div>
+        
+      
+    </div>
+<!--FAQs-->
+       <section class="faq py-4">
+            <div class="container">
+                <h3 class="text-center">Frequently Asked Questions</h3>
+              <div style="display: flex;padding-top: 20px; font-size: 20px;">
+                <p class="questions">General</p>
+                <p class="questions"  style="padding-left: 60px;">Ticket-related</p>
+                <p class="questions" style="padding-left: 60px;">Payment</p>
+                <p class="questions" style="padding-left: 60px;">cancellation</p>
+                <p class="questions" style="padding-left: 60px;">Refund</p>
+                <p class="questions" style="padding-left: 60px;">Insurance</p>
+                
+              </div> 
+               <div class="accordion mt-3" id="faqAccordion" style="padding-top: 20px;">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqHeading1">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
+                                What are the advantages of purchasing a bus ticket with Bus?
+                            </button>
+                        </h2>
+                        <div id="faqCollapse1" class="accordion-collapse collapse show" aria-labelledby="faqHeading1" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                You can choose your seat
+                                -    You can book your bus tickets online, by phone, or in person
+                                -    You can choose from over 1500+ bus operators
+                                -    You can choose from buses based on boarding points, timing and bus type.
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="accordion mt-3" id="faqAccordion" style="padding-top: 20px;">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqHeading2">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
+                                Does booking online cost me more?
+                            </button>
+                        </h2>
+                        <div id="faqCollapse2" class="accordion-collapse collapse" aria-labelledby="faqHeading2" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Not at all! The price of the bus ticket is the same as you would get from the bus operator too.The price of hotel voucher is the same or sometimes discounted depending on the season/time.
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="accordion mt-3" id="faqAccordion" style="padding-top: 20px;">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqHeading3">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
+                                Is it mandatory to take a printout of the ticket?
+                            </button>
+                        </h2>
+                        <div id="faqCollapse3" class="accordion-collapse collapse" aria-labelledby="faqHeading3" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                It depends on the bus operator you have booked your ticket with. Even mTickets are available on redBus. For operators that support mTickets, the SMS that is sent to your mobile can be produced at the time of boarding and you will be allowed to travel.
+
+                                For operators that do not support mTickets it is a must to take a printout of the e-ticket and produce it at the time of boarding. The e-ticket is sent to the e-mail ID provided at the time of boarding.
+                                
+                                To know which operators are mTicket enabled, look for the mTicket icon  under the mTicket column while searching for buses..
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="accordion mt-3" id="faqAccordion" style="padding-top: 20px;">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqHeading4">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
+                                What payment options do I have?
+                            </button>
+                        </h2>
+                        <div id="faqCollapse4" class="accordion-collapse collapse" aria-labelledby="faqHeading4" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Credit card-
+Debit card-
+Internet banking (Internet enabled online bank account)-
+Wallets
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="accordion mt-3" id="faqAccordion" style="padding-top: 20px;">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqHeading5">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
+                                Is it safe to use my credit card on this site?
+                            </button>
+                        </h2>
+                        <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Transactions on redBus are very safe. We employ the best-in-class security and the transactions done are secure. Apart from being certified by Verisign, redBus uses Secure Socket Layers (SSL) data encryption. Using SSL ensures that the information exchanged with us is never transmitted unencrypted, thus protecting the information from being viewed by unauthorized individuals.
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="accordion mt-3" id="faqAccordion" style="padding-top: 20px;">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqHeading5">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
+                                How can I cancel my bus ticket online?
+                            </button>
+                        </h2>
+                        <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                You need to click on the cancellation link provided on our home page. Enter your ticket number and the e-mail ID that was provided at the time of booking and click on cancel ticket.
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                     <div class="accordion mt-3" id="faqAccordion" style="padding-top: 20px;">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqHeading5">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse5" aria-expanded="false" aria-controls="faqCollapse5">
+                                I missed the bus. Do I get a refund?
+                            </button>
+                        </h2>
+                        <div id="faqCollapse5" class="accordion-collapse collapse" aria-labelledby="faqHeading5" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                redBus provides a 100% refund if the bus is missed due to either redBus or its’ partner company's fault. However, if the bus is missed due to any other reason not directly related to redBus no refund is provided.
+
+                            </div>
+                        </div>
+                    </div>
+                   </div>
+            </div>
+  
+<!--Footer-->
+
+
+<div class="container bg-body-tertiary mt-5 " style="max-width: 100%; background-color: #F1F1F1;">
+    <footer class="py-5 mb-0">
+      <div class="row">
+        <div class="col-6 col-md-2 mb-3" style="margin-left: 50px;">
+          <h5>TOP RTCs</h5>
+          <ul class="nav flex-column" style="font-weight: 400; padding-top: 10px;">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">APSRTC</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">GSRTC</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">MSRTC</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">TNSTC</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">View All</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Other</h5>
+          <ul class="nav flex-column"style="font-weight: 400; padding-top: 10px;" >
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">TSRTC</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">SBSTC</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">RSRTC</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Kerala RTC</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">View All</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Top bus routes</h5>
+          <ul class="nav flex-column" style="font-weight: 400; padding-top: 10px;">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Hyderbad to Bangalore Bus</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Bangalore to Chennai Bus</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pune to Bangalore Bus</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Mumbai to Bangalore Bus</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">View All</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-2 mb-3" style="padding-left: 50px;">
+            <h5>Top cities</h5>
+            <ul class="nav flex-column"style="font-weight: 400; padding-top: 10px;">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Hyderbad Bus Tickets</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Bangalore Bus Tickets</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Chennai Bus Tickets</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pune Bus Tickets</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">View All</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-2 mb-3" style="padding-left: 50px ; width: max-content;">
+            <h5>Tempo Traveller in Cities</h5>
+            <ul class="nav flex-column" style="font-weight: 400; padding-top: 10px;" >
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Tempo traveller in Bangalore</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Tempo traveller in Chennai</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Tempo traveller in Mumbai</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Tempo traveller in Hyderbad</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Tempo traveller in Ahnmedabad</a></li>
+            </ul>
+          </div>
+          <div class="container ">
+            <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+              <div class="col ">
+                <a href="/" class="d-flex align-items-center  link-body-emphasis text-decoration-none">
+                  <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+                </a>
+                <p class="text-body-secondary">© 2023</p>
+              </div>
+          
+              <div class="col ">
+                <h5>About Rhythm</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About us</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Investor Relations</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Contact us</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Offers</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Sitemap</a></li>
+                </ul>
+              </div>
+          
+              <div class="col">
+                <h5>Info</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">T&C</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Privacy policy</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Blog</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Bus operator registration</a></li>
+                </ul>
+              </div>
+          
+              <div class="col">
+                <h5>Global Sites</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">India</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Singapore</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Malaysia</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Indonesia</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Peru</a></li>
+                </ul>
+              </div>
+          
+              <div class="col">
+                <h5>Our Partners</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Goibibo Bus</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Goibibo Hostels</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Makemytrip Bus</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Makemytrip Hostels</a></li>
+                </ul>
+              </div>
+            </footer>
+          </div>      
+          <div class="container">
+            <footer class="d-flex row row-cols-lg-2 py-lg-3 border-top" style="width: 100%;">
+              <div class="col mb-0" style="width: max-content;">
+                <p class="text-body-secondary">© 2023 Rhythm India Pvt Ltd.All rights reserved</p>
+              </div>
+          <div class="last">
+            <p><i class="fa-brands fa-x-twitter d-block px-3 " style="font-size: 25px;"></i></p>
+            <p><i class="fa-brands fa-instagram d-block px-4" style="font-size: 25px;"></i></p>
+            <p><i class="fa-brands fa-facebook d-block px-4" style="font-size: 25px;"></i></p>
+          </div>
+            </footer>
+          </div>      
+  
+    </footer>
+  </div>
+
+
+</body>
+</html>
