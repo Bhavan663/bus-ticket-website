@@ -1,154 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redbus</title>
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
 </head>
+
 <body>
     <!--navigation-->
 
     <div class=" nav-logo justify-content-between" style="background-color:#fff;position: static;">
         <div class="nav-top" style="width: 230px;">
-            <img style="padding-top: 20px; padding-left:100px ; margin-bottom: 10px;" src="https://st.redbus.in/Images/rdc/rdc-redbus-logo.svg" alt="redBus" class="rb_logo">
+            <img style="padding-top: 20px; padding-left:100px ; margin-bottom: 10px;"
+                src="https://st.redbus.in/Images/rdc/rdc-redbus-logo.svg" alt="redBus" class="rb_logo">
             <div class="nav-option" style="margin-left: 200px; align-items: center; display: block; padding-top: 15px;">
-            <div class="but">
-              <button onclick = "window.location.href='https://www.redbus.in/';" style="border-color: transparent; background-color: transparent;">
-                <img src="https://st.redbus.in/web/images/layout/rb_vertical.svg" alt=""><p style="width:90px; padding-top: 5px;">Bus Tickets</p>
-               </button>
+                <div class="but">
+                    <button onclick="window.location.href='https://www.redbus.in/';"
+                        style="border-color: transparent; background-color: transparent;">
+                        <img src="https://st.redbus.in/web/images/layout/rb_vertical.svg" alt="">
+                        <p style="width:90px; padding-top: 5px;">Bus Tickets</p>
+                    </button>
+                </div>
+
             </div>
-              
-               </div>
-          
-          </div>
-       
-          <div class="navigation ">
+
+        </div>
+
+        <div class="navigation " style="padding-right: 150px;">
             <div class=" d-flex" style="gap: 30px; padding-top: 10px;">
-                <p><i class="fa-solid fa-headset"></i><a href="#" class="link"><span style="padding-left: 5px;">Help</span></a></p>
-               
-               
+                <p><i class="fa-solid fa-headset"></i><a href="#" class="link"><span
+                            style="padding-left: 5px;">Help</span></a></p>
+
+
             </div>
-          
-           <div class="dropdown" style="padding-top: 7px;">
-            <i class="fa-solid fa-user" style="padding-right: 10px;"></i><button  class="account dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="border-color: transparent; background-color: #fff;" >
-    Account
-  </button>
-  <ul class="dropdown-menu">
-    <li><button class="dropdown-item" type="button">Cancel Ticket</button></li>
-    <li><button class="dropdown-item" type="button">Booking History</button></li>
-    <li><button type="button" class="dropdown-item"><a href="#" class="link">log-in / Sign-up</a></button></li>
-  </ul>
-</div>
+
+            <div class="dropdown" style="padding-top: 7px;">
+                <i class="fa-solid fa-user" style="padding-right: 10px;"></i><button class="account dropdown-toggle"
+                    type="button" data-bs-toggle="dropdown" aria-expanded="false"
+                    style="border-color: transparent; background-color: #fff;">
+                    Account
+                </button>
+                <ul class="dropdown-menu">
+                    <li><button class="dropdown-item" type="button">Cancel Ticket</button></li>
+                    <li><button class="dropdown-item" type="button">Booking History</button></li>
+                    <li><button type="button" class="dropdown-item"><a href="#" class="link">log-in /
+                                Sign-up</a></button></li>
+                </ul>
             </div>
-        
-           
-    </div>
-<!--breadcrambs-->
-<section class="main" style="display: block; width: 100%;">
-    <div class="main" style="display: inline-block; width: 100%;">
-       <div style="background-color: #F1F1F1;">
-        <ul class=" breadcrumb mb-0" aria-label="breadcrumb" style="--bs-breadcrumb-divider: '>'; padding-left: 15px; font-family: sans-serif; margin-bottom: 0;">
-            <li class="breadcrumb-item"><a href="index.html" style="text-decoration: none;color: black;font-weight: 600;font-size: 15px;">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page" style="font-size: 15px;">Library</li>
-            <li class="breadcrumb-item" style="font-size: 15px;">Chennai To Madurai ></li>    
-        </ul>
-        <div style="padding-top: 0;padding-left: 15px;">
-            <p style="font-weight: 600;">Fare Starts from INR 450</p>
         </div>
-       </div>
-        
-    
-    <div style="margin-top: 10px;padding-bottom: 1px; box-shadow: 0 1px 0 0 rgb(168, 168, 168);">
-        <p style="font-weight: 500; padding-left: 15px;">Chennai to Madurai Bus </p> 
+
+
     </div>
-    <div style="display: flex;padding-left: 15px;box-shadow: 0 1px 0 0 rgb(168, 168, 168);">
-        <p style="font-weight: 500; padding-top: 10px;">Chennai</p>
-        <p style="padding-left: 10px; padding-top: 10px;"><i class="fa-solid fa-arrow-right"></i></p>
-        <p style="font-weight: 500;padding-left: 10px; padding-top: 10px;">Madurai</p>
-        <p style="padding-left: 10px; padding-top: 10px;"><i class="fa-solid fa-greater-than fa-rotate-180"></i></p>
-        <p style="padding-left: 10px; padding-top: 10px;font-weight: 500;">11 Aug</p>
-        <p style="padding-left: 10px; padding-top: 10px;" ><i class="fa-solid fa-greater-than"></i></p>
-        <div style="padding-left: 20px;; padding-top: 10px;">
-            <button type="button" style="box-shadow: none; border-width: 2px;"><span style="font-size: 15px;">Modify</span></button>
-        </div>
-       
-    </div>
-</div>  
-</section>
-<!--Sidebar-->
-<div class="d-flex">
-    <div class="filter-details px-3 col-lg-2">
-        <p class="title f-bold" style="font-weight: 700;font-family: 'Montserrat', sans-serif; font-size: 14px; padding-bottom: 10px; box-shadow: 0 1px 0 0 rgb(168, 168, 168); padding-top: 10px; padding-left: 10px;">FILTERS
-        </p>
-        <div class="details d-block">
-            <div class="addn-filters" style="list-style-type:none;">
-                   <p style=" box-shadow: 0 1px 0 0 rgb(168, 168, 168);padding-bottom: 10px;"> <i class="fa-solid fa-map-location"></i>
-                    <span style="padding-left: 10px; font-size: 13px; font-weight: 400; font-family: 'Montserrat', sans-serif;" class="d-color">Live Tracking (225)</span>
-                    <i class="fa-solid fa-check"></i></p>
-                <p style=" box-shadow: 0 1px 0 0 rgb(168, 168, 168);padding-bottom: 10px;" class="clearfix"> <i class="fa-solid fa-map-location"></i><span style="padding-left: 15px; font-size: 13px; font-weight: 400; font-family: 'Montserrat', sans-serif; ">Primo Bus (30)</span>
-                    <i class="fa-solid fa-check"></i>
+    <!--breadcrambs-->
+    <section class="main" style="display: block; width: 100%;font-family: 'Montserrat', sans-serif;">
+        <div class="main" style="display: inline-block; width: 100%;">
+            <div style="background-color: #F1F1F1;">
+                <ul class=" breadcrumb mb-0" aria-label="breadcrumb"
+                    style="--bs-breadcrumb-divider: '>';font-size: 15px; padding-left: 15px; margin-bottom: 0;">
+                    <li class="breadcrumb-item"><a href="index.html"
+                            style="text-decoration: none;color: black;font-weight: 600;font-size: 15px;">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page" style="font-size: 15px;">Bus Tickets</li>
+                    <li class="breadcrumb-item" style="font-size: 15px;">Chennai To Madurai ></li>
+                </ul>
+                <div style="padding-top: 0;padding-left: 15px;">
+                    <p style="font-weight: 600; font-size: 15px;">Fare Starts from INR 450</p>
+                </div>
+            </div>
+
+
+            <div style="margin-top: 10px;padding-bottom: 1px; box-shadow: 0 1px 0 0 rgb(168, 168, 168);">
+                <p style="font-weight: 600;font-size: 15px; padding-left: 15px;">Chennai to Madurai Bus </p>
+            </div>
+            <div style="display: flex;padding-left: 15px;box-shadow: 0 1px 0 0 rgb(168, 168, 168);">
+                <p style="font-size: 15px; font-weight: 600; padding-top: 10px;">Chennai</p>
+                <p style="font-size: 15px; padding-left: 20px; padding-top: 10px; "><i class="fa-solid fa-arrow-right"></i></p>
+                <p style="font-size: 15px; font-weight: 600;padding-left: 20px; padding-top: 10px;">Madurai</p>
+                <p style="font-size: 15px; padding-left: 20px; padding-top: 10px;"><i class="fa-solid fa-greater-than fa-rotate-180"></i>
                 </p>
+                <p style="font-size: 15px; padding-left: 10px; padding-top: 10px;font-weight: 600;">11 Aug <span style="display: block;font-size: 12px;text-align: center;font-weight: 600;">Fri</span></p>
+                <p style="padding-left: 10px; padding-top: 10px;"><i class="fa-solid fa-greater-than"></i></p>
+                <div style="padding-left: 20px;; padding-top: 10px;">
+                    <button type="button" style="box-shadow: none; border-width: 1px; border-color: #545454; width: 70px;"><span
+                            style="font-size: 15px;">Modify</span></button>
+                </div>
+
             </div>
         </div>
+    </section>
+    <!--Sidebar-->
+    <div class="d-flex">
+        <div class="filter-details px-3 col-lg-2">
+            <p class="title f-bold"
+                style="font-weight: 700;font-family: 'Montserrat', sans-serif; font-size: 14px; padding-bottom: 10px; box-shadow: 0 1px 0 0 rgb(168, 168, 168); padding-top: 10px; padding-left: 10px;">
+                FILTERS
+            </p>
+            <div class="details d-block">
+                <div class="addn-filters" style="list-style-type:none;">
+                    <p style=" box-shadow: 0 1px 0 0 rgb(168, 168, 168);padding-bottom: 10px;"> <i
+                            class="fa-solid fa-map-location"></i>
+                        <span
+                            style="padding-left: 10px; font-size: 13px; font-weight: 400; font-family: 'Montserrat', sans-serif;"
+                            class="d-color">Live Tracking (225)</span>
+                        <i class="fa-solid fa-check"></i>
+                    </p>
+                    <p style=" box-shadow: 0 1px 0 0 rgb(168, 168, 168);padding-bottom: 10px;" class="clearfix"> <i
+                            class="fa-solid fa-map-location"></i><span
+                            style="padding-left: 15px; font-size: 13px; font-weight: 400; font-family: 'Montserrat', sans-serif; ">Primo
+                            Bus (30)</span>
+                        <i class="fa-solid fa-check"></i>
+                    </p>
+                </div>
+            </div>
             <!--Departure Time-->
-            <p class="filter-titles" style="font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 14px;">DEPARTURE TIME</p>
+            <p class="filter-titles" style="font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 14px;">
+                DEPARTURE TIME</p>
             <div>
                 <ul class="dept-time dt-time-filter" style="list-style: none; padding-left: 0;">
                     <li data-value="" class="checkbox" style="font-family: 'Montserrat', sans-serif; font-size: 13px;">
                         <input type="checkbox" id="dtBefore 6 am">
                         <label for="dtBefore 6 am" class="custom-checkbox"></label>
                         <span><i class="fa-solid fa-sun"></i></span>
-                        <label for="dtBefore 6 am"  class="cbox-label" title="Before 6 am">Before 6 am (2)</label>
+                        <label for="dtBefore 6 am" class="cbox-label" title="Before 6 am">Before 6 am (2)</label>
                     </li>
-                    <li data-value="" class="checkbox"style="font-family: 'Montserrat', sans-serif; font-size: 13px; padding-top:10px">
+                    <li data-value="" class="checkbox"
+                        style="font-family: 'Montserrat', sans-serif; font-size: 13px; padding-top:10px">
                         <input type="checkbox" id="dt6 am to 12 pm">
                         <label for="dt6 am to 12 pm" class="custom-checkbox"></label>
                         <span><i class="fa-solid fa-cloud-moon"></i></span>
                         <label for="dt6 am to 12 pm" class="cbox-label" title="6 am to 12 pm">6 am to 12 pm (10)</label>
                     </li>
-                    <li data-value="" class="checkbox"style="font-family: 'Montserrat', sans-serif; font-size: 13px; padding-top:10px">
+                    <li data-value="" class="checkbox"
+                        style="font-family: 'Montserrat', sans-serif; font-size: 13px; padding-top:10px">
                         <input type="checkbox" id="dt12 pm to 6 pm">
                         <label for="dt12 pm to 6 pm" class="custom-checkbox"></label>
                         <span><i class="fa-solid fa-moon"></i></span>
                         <label for="dt12 pm to 6 pm" class="cbox-label" title="12 pm to 6 pm">12 pm to 6 pm (20)</label>
                     </li>
-                    <li data-value="" class="checkbox"style="font-family: 'Montserrat', sans-serif; font-size: 13px; padding-top:10px">
+                    <li data-value="" class="checkbox"
+                        style="font-family: 'Montserrat', sans-serif; font-size: 13px; padding-top:10px">
                         <input type="checkbox" id="dtAfter 6 pm">
                         <label for="dtAfter 6 pm" class="custom-checkbox"></label><span>
-                        <i class="fa-solid fa-cloud-moon-rain"></i></span>
+                            <i class="fa-solid fa-cloud-moon-rain"></i></span>
                         <label for="dtAfter 6 pm" class="cbox-label" title="After 6 pm">After 6 pm (193)</label>
                     </li>
                 </ul>
-                
+
             </div>
             <!--Bus Types-->
-                <div class="filter-titles"style="font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 14px;">BUS TYPES</div>
-                <ul class="list-chkbox" style="list-style: none; padding-left: 0;">
-                    <li data-value="" class="checkbox" style="font-family: 'Montserrat', sans-serif; font-size: 13px; padding-top:10px">
+            <div class="filter-titles"
+                style="font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 14px;">BUS TYPES</div>
+            <ul class="list-chkbox" style="list-style: none; padding-left: 0;">
+                <li data-value="" class="checkbox"
+                    style="font-family: 'Montserrat', sans-serif; font-size: 13px; padding-top:10px">
                     <input type="checkbox" id="bt_SEATER">
                     <label for="bt_SEATER" class="custom-checkbox"></label>
                     <label for="bt_SEATER" class="cbox-label" title="SEATER">SEATER (93)</label>
                 </li>
-                    <li data-value="" class="checkbox"style="font-family: 'Montserrat', sans-serif; font-size: 13px; padding-top:10px">
+                <li data-value="" class="checkbox"
+                    style="font-family: 'Montserrat', sans-serif; font-size: 13px; padding-top:10px">
                     <input type="checkbox" id="bt_SLEEPER">
                     <label for="bt_SLEEPER" class="custom-checkbox">
-    
-                </label>
+
+                    </label>
                     <label for="bt_SLEEPER" class="cbox-label" title="SLEEPER">SLEEPER (213)</label>
                 </li>
-                    <li data-value="" class="checkbox"style="font-family: 'Montserrat', sans-serif; font-size: 13px; padding-top:10px">
+                <li data-value="" class="checkbox"
+                    style="font-family: 'Montserrat', sans-serif; font-size: 13px; padding-top:10px">
                     <input type="checkbox" id="bt_AC">
                     <label for="bt_AC" class="custom-checkbox"></label>
                     <label for="bt_AC" class="cbox-label" title="AC">AC (124)</label>
                 </li>
-                    <li data-value="" class="checkbox"style="font-family: 'Montserrat', sans-serif; font-size: 13px; padding-top:10px">
+                <li data-value="" class="checkbox"
+                    style="font-family: 'Montserrat', sans-serif; font-size: 13px; padding-top:10px">
                     <input type="checkbox" id="bt_NONAC">
                     <label for="bt_NONAC" class="custom-checkbox"></label>
                     <label for="bt_NONAC" class="cbox-label" title="NONAC">NONAC (101)</label>
@@ -156,119 +191,154 @@
             </ul>
             <!--seatAvaiability-->
             <div class="singleSeatContainer">
-                    <div class="filter-titles"style="font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 14px;">SEAT AVAILABILITY</div>
-                <ul class="list-chkbox"style="list-style: none; padding-left: 0;">
-                    <li data-value="" class="checkbox" style="padding-top:10px;font-family: 'Montserrat', sans-serif; font-size: 13px;">
-                    <input type="checkbox" id="bt_Single Seats">
-                    <label for="bt_Single Seats" class="custom-checkbox"></label>
-                    <label for="bt_Single Seats" class="cbox-label" title="Single Seats">Single Seats (127)</label>
-                </li>
-            </ul>
-        </div>
-        <!--Arrival Time-->
-        <p class="filter-titles" style="font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 14px;">ARRIVAL TIME</p>
-        <div>
-            <ul class="dept-time dt-time-filter" style="list-style: none; padding-left: 0;">
-                <li data-value="" class="checkbox" style="font-family: 'Montserrat', sans-serif; font-size: 13px;">
-                    <input type="checkbox" id="dtBefore 6 am">
-                    <label for="dtBefore 6 am" class="custom-checkbox"></label>
-                    <span><i class="fa-solid fa-sun"></i></span>
-                    <label for="dtBefore 6 am"  class="cbox-label" title="Before 6 am">Before 6 am (2)</label>
-                </li>
-                <li data-value="" class="checkbox"style="font-family: 'Montserrat', sans-serif; font-size: 13px; padding-top:10px">
-                    <input type="checkbox" id="dt6 am to 12 pm">
-                    <label for="dt6 am to 12 pm" class="custom-checkbox"></label>
-                    <span><i class="fa-solid fa-cloud-moon"></i></span>
-                    <label for="dt6 am to 12 pm" class="cbox-label" title="6 am to 12 pm">6 am to 12 pm (10)</label>
-                </li>
-                <li data-value="" class="checkbox"style="font-family: 'Montserrat', sans-serif; font-size: 13px; padding-top:10px">
-                    <input type="checkbox" id="dt12 pm to 6 pm">
-                    <label for="dt12 pm to 6 pm" class="custom-checkbox"></label>
-                    <span><i class="fa-solid fa-moon"></i></span>
-                    <label for="dt12 pm to 6 pm" class="cbox-label" title="12 pm to 6 pm">12 pm to 6 pm (20)</label>
-                </li>
-                <li data-value="" class="checkbox"style="font-family: 'Montserrat', sans-serif; font-size: 13px; padding-top:10px">
-                    <input type="checkbox" id="dtAfter 6 pm">
-                    <label for="dtAfter 6 pm" class="custom-checkbox"></label><span>
-                    <i class="fa-solid fa-cloud-moon-rain"></i></span>
-                    <label for="dtAfter 6 pm" class="cbox-label" title="After 6 pm">After 6 pm (193)</label>
-                </li>
-            </ul>
-            
-        </div>
-        <!--Boarding Point-->
-                <div class="filter-titles" style="font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 14px;">BOARDING POINT</div>
-                <div class="fil-search"style="font-family: 'Montserrat', sans-serif; font-size: 13px; padding-top:4px"><input type="text" placeholder=" BOARDING POINT"></div>
-                <div class="filter-titles"style="font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 14px;">DROPPING POINT</div>
-                <div class="fil-search"style="font-family: 'Montserrat', sans-serif; font-size: 13px; padding-top:4px"><i class="icon icon-search"></i><input type="text" placeholder="DROPPING POINT"></div>
-                <div class="filter-titles"style="font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 14px;">OPERATOR</div>
-                <div class="fil-search"style="font-family: 'Montserrat', sans-serif; font-size: 13px; padding-top:4px"><i class="icon icon-search"></i><input id="opfilter" type="text" placeholder="OPERATOR">
+                <div class="filter-titles"
+                    style="font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 14px;">SEAT AVAILABILITY
                 </div>
-                <!--Amenities-->
-                <div class="filter-titles"style="font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 14px;padding-top:15px  ">AMENITIES</div>
-               <div style="display: block;">
-                <ul>
-                <li><button type="button" style="background-color: #fff;  border: 1px solid gray;font-size: 12px;font-family: 'Montserrat', sans-serif;font-weight: 700;">Wifi(8)</button></li>
-                <li><button type="button" style="background-color: #fff;  border: 1px solid gray;font-size: 12px;font-family: 'Montserrat', sans-serif;font-weight: 700;">Water Bottle(59)</button></li>
-                <li><button type="button" style="background-color: #fff;  border: 1px solid gray;font-size: 12px;font-family: 'Montserrat', sans-serif;font-weight: 700;">Blankets(69)</button></li>
-                <li><button type="button" style="background-color: #fff;  border: 1px solid gray;font-size: 12px;font-family: 'Montserrat', sans-serif;font-weight: 700;">Charging Point(81)</button></li>
-                <li><button type="button" style="background-color: #fff;  border: 1px solid gray;font-size: 12px;font-family: 'Montserrat', sans-serif;font-weight: 700;">Wifi(11)</button></li>
-                <li><button type="button" style="background-color: #fff;  border: 1px solid gray;font-size: 12px;font-family: 'Montserrat', sans-serif;font-weight: 700;">Wifi(11)</button></li>
-                <li><button type="button" style="background-color: #fff;  border: 1px solid gray;font-size: 12px;font-family: 'Montserrat', sans-serif;font-weight: 700;">Wifi(11)</button></li>
-                <li><button type="button" style="background-color: #fff;  border: 1px solid gray;font-size: 12px;font-family: 'Montserrat', sans-serif;font-weight: 700;">Toilet(4)</button></li>
-                <li><button type="button" style="background-color: #fff;  border: 1px solid gray;font-size: 12px;font-family: 'Montserrat', sans-serif;font-weight: 700;">Bed Sheet(32)</button></li>
-                
-                        
-            </ul>
-                
-        
-               </div>
-                
+                <ul class="list-chkbox" style="list-style: none; padding-left: 0;">
+                    <li data-value="" class="checkbox"
+                        style="padding-top:10px;font-family: 'Montserrat', sans-serif; font-size: 13px;">
+                        <input type="checkbox" id="bt_Single Seats">
+                        <label for="bt_Single Seats" class="custom-checkbox"></label>
+                        <label for="bt_Single Seats" class="cbox-label" title="Single Seats">Single Seats (127)</label>
+                    </li>
+                </ul>
             </div>
-        
-                    
-                
-            
-      
-            <!--Result Box-->
-            <div class="main w-100">
-                <div class="top-cont" style="font-family: 'Montserrat', sans-serif; margin-top: 30px;">
-                    <div class="row" style="margin-left: 2px;">
-                        <div class="col-lg-2">
-                            <p style=" font-size: 15px; font-weight: 600;">230 Buses <span style="font-weight: 500;">Found</span></p>
-                        </div>
-                        <div class="col-lg-2 ">
-                            <p style="font-size: 15px;font-weight: 600;">Sort By:</p>
-                        </div>
-<div class="col-lg-1">
-<p style="font-size: 12px;font-weight: 500;">Departure</p>
-</div>
-<div class="col-lg-1">
-    <p style="font-size: 12px;font-weight: 500;">Duration</p>
-</div>
-<div class="col-lg-1">
-<p style="font-size: 12px;font-weight: 500;">Arrival</p>
-</div>
-<div class="col-lg-1" >
-<p style="font-size: 12px;font-weight: 500;">Ratings</p>
-</div>
-<div class="col-2 ">
-<p style="font-size: 12px;font-weight: 500;text-align: center;">Fare</p>
-</div>
-<div class="col">
-<p style="font-size: 12px;font-weight: 500;">Seat Avaliability</p>
-</div>
-                    </div>
+            <!--Arrival Time-->
+            <p class="filter-titles" style="font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 14px;">
+                ARRIVAL TIME</p>
+            <div>
+                <ul class="dept-time dt-time-filter" style="list-style: none; padding-left: 0;">
+                    <li data-value="" class="checkbox" style="font-family: 'Montserrat', sans-serif; font-size: 13px;">
+                        <input type="checkbox" id="dtBefore 6 am">
+                        <label for="dtBefore 6 am" class="custom-checkbox"></label>
+                        <span><i class="fa-solid fa-sun"></i></span>
+                        <label for="dtBefore 6 am" class="cbox-label" title="Before 6 am">Before 6 am (2)</label>
+                    </li>
+                    <li data-value="" class="checkbox"
+                        style="font-family: 'Montserrat', sans-serif; font-size: 13px; padding-top:10px">
+                        <input type="checkbox" id="dt6 am to 12 pm">
+                        <label for="dt6 am to 12 pm" class="custom-checkbox"></label>
+                        <span><i class="fa-solid fa-cloud-moon"></i></span>
+                        <label for="dt6 am to 12 pm" class="cbox-label" title="6 am to 12 pm">6 am to 12 pm (10)</label>
+                    </li>
+                    <li data-value="" class="checkbox"
+                        style="font-family: 'Montserrat', sans-serif; font-size: 13px; padding-top:10px">
+                        <input type="checkbox" id="dt12 pm to 6 pm">
+                        <label for="dt12 pm to 6 pm" class="custom-checkbox"></label>
+                        <span><i class="fa-solid fa-moon"></i></span>
+                        <label for="dt12 pm to 6 pm" class="cbox-label" title="12 pm to 6 pm">12 pm to 6 pm (20)</label>
+                    </li>
+                    <li data-value="" class="checkbox"
+                        style="font-family: 'Montserrat', sans-serif; font-size: 13px; padding-top:10px">
+                        <input type="checkbox" id="dtAfter 6 pm">
+                        <label for="dtAfter 6 pm" class="custom-checkbox"></label><span>
+                            <i class="fa-solid fa-cloud-moon-rain"></i></span>
+                        <label for="dtAfter 6 pm" class="cbox-label" title="After 6 pm">After 6 pm (193)</label>
+                    </li>
+                </ul>
 
+            </div>
+            <!--Boarding Point-->
+            <div class="filter-titles"
+                style="font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 11px; padding-top: 10px;">BOARDING POINT</div>
+            <div class="fil-search" style="font-family: 'Montserrat', sans-serif; font-size: 11px; padding-top:10px">
+                <input type="text" placeholder=" BOARDING POINT" style="border-width: thin;width: 100%;"></div>
+            <div class="filter-titles"
+                style="font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 11px;padding-top: 10px;">DROPPING POINT</div>
+            <div class="fil-search" style="font-family: 'Montserrat', sans-serif; font-size: 11px; padding-top:10px"><i
+                    class="icon icon-search"></i><input style="width: 100%;border-width: thin;" type="text" placeholder="DROPPING POINT"></div>
+            <div class="filter-titles"
+                style="font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 11px; padding-top: 10px;">OPERATOR</div>
+            <div class="fil-search" style="font-family: 'Montserrat', sans-serif; font-size: 11px; padding-top:10px"><i
+                    class="icon icon-search"></i><input id="opfilter" style="width: 100%;border-width: thin;" type="text" placeholder="OPERATOR">
+            </div>
+            <!--Amenities-->
+            <div class="filter-titles"
+                style="font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 14px;padding-top:15px  ">
+                AMENITIES</div>
+            <div style="display: block;">
+                <ul>
+                    <li><button type="button"
+                            style="background-color: #fff;  border: 1px solid gray;font-size: 12px;font-family: 'Montserrat', sans-serif;font-weight: 700;">Wifi(8)</button>
+                    </li>
+                    <li><button type="button"
+                            style="background-color: #fff;  border: 1px solid gray;font-size: 12px;font-family: 'Montserrat', sans-serif;font-weight: 700;">Water
+                            Bottle(59)</button></li>
+                    <li><button type="button"
+                            style="background-color: #fff;  border: 1px solid gray;font-size: 12px;font-family: 'Montserrat', sans-serif;font-weight: 700;">Blankets(69)</button>
+                    </li>
+                    <li><button type="button"
+                            style="background-color: #fff;  border: 1px solid gray;font-size: 12px;font-family: 'Montserrat', sans-serif;font-weight: 700;">Charging
+                            Point(81)</button></li>
+                    <li><button type="button"
+                            style="background-color: #fff;  border: 1px solid gray;font-size: 12px;font-family: 'Montserrat', sans-serif;font-weight: 700;">Wifi(11)</button>
+                    </li>
+                    <li><button type="button"
+                            style="background-color: #fff;  border: 1px solid gray;font-size: 12px;font-family: 'Montserrat', sans-serif;font-weight: 700;">Wifi(11)</button>
+                    </li>
+                    <li><button type="button"
+                            style="background-color: #fff;  border: 1px solid gray;font-size: 12px;font-family: 'Montserrat', sans-serif;font-weight: 700;">Wifi(11)</button>
+                    </li>
+                    <li><button type="button"
+                            style="background-color: #fff;  border: 1px solid gray;font-size: 12px;font-family: 'Montserrat', sans-serif;font-weight: 700;">Toilet(4)</button>
+                    </li>
+                    <li><button type="button"
+                            style="background-color: #fff;  border: 1px solid gray;font-size: 12px;font-family: 'Montserrat', sans-serif;font-weight: 700;">Bed
+                            Sheet(32)</button></li>
+
+
+                </ul>
+
+
+            </div>
+
+        </div>
+
+
+
+
+
+        <!--Result Box-->
+        <div class="main w-100">
+            <div class="top-cont" style="font-family: 'Montserrat', sans-serif; margin-top: 30px;">
+                <div class="row" style="margin-left: 2px;">
+                    <div class="col-lg-2">
+                        <p style=" font-size: 15px; font-weight: 600;">230 Buses <span
+                                style="font-weight: 500;">Found</span></p>
+                    </div>
+                    <div class="col-lg-2 ">
+                        <p style="font-size: 15px;font-weight: 600;">Sort By:</p>
+                    </div>
+                    <div class="col-lg-1">
+                        <p style="font-size: 12px;font-weight: 500;">Departure</p>
+                    </div>
+                    <div class="col-lg-1">
+                        <p style="font-size: 12px;font-weight: 500;">Duration</p>
+                    </div>
+                    <div class="col-lg-1">
+                        <p style="font-size: 12px;font-weight: 500;">Arrival</p>
+                    </div>
+                    <div class="col-lg-1">
+                        <p style="font-size: 12px;font-weight: 500;">Ratings</p>
+                    </div>
+                    <div class="col-2 ">
+                        <p style="font-size: 12px;font-weight: 500;text-align: center;">Fare</p>
+                    </div>
+                    <div class="col">
+                        <p style="font-size: 12px;font-weight: 500;">Seat Avaliability</p>
+                    </div>
                 </div>
-                <!--Bus Container-->
-                <div class="container" style="height: fit-content; margin-top: 10px;font-family: 'Montserrat', sans-serif;  ">
-                    <div class="row bg-danger-subtle" style="margin-top: 20px;padding-top: 20px;">
-                        <div class="col-lg-4">
-                            <p style="font-size: 15px;font-weight: 600;padding-top: 10px;">Egloo Travels</p>
-                        </div>
-                        <div class="col-lg-1 ">
-                            <p style="font-weight: 600;font-size: 20px;padding-top: 5px;text-align: center;" >21:15</p>
+
+            </div>
+            <!--Bus Container-->
+            <div class="container"
+                style="height: fit-content; margin-top: 10px;font-family: 'Montserrat', sans-serif;  ">
+                <div class="row bg-danger-subtle" style="margin-top: 20px;padding-top: 20px;">
+                    <div class="col-lg-4">
+                        <p style="font-size: 15px;font-weight: 600;padding-top: 10px;">Egloo Travels</p>
+                    </div>
+                    <div class="col-lg-1 ">
+                        <p style="font-weight: 600;font-size: 20px;padding-top: 5px;text-align: center;">21:15</p>
                     </div>
                     <div class="col-lg-1">
                         <p style="font-size: 14px;padding-top: 10px; text-align: center;">08h 15m</p>
@@ -277,394 +347,279 @@
                         <p style="font-size: 20px;font-weight: 600; padding-top: 5px;text-align: center;">5:30</p>
                     </div>
                     <div class="col-lg-1" style="padding-top: 7px; ">
-                        <button type="button" style="border-radius: 5px;font-size:13px ; border-color: transparent;background-color: green;color: white; text-align: center;" ><i class="fa-solid fa-star"></i>4.6</button>
+                        <button type="button"
+                            style="border-radius: 5px;font-size:13px ; border-color: transparent;background-color: green;color: white; text-align: center;"><i
+                                class="fa-solid fa-star"></i>4.6</button>
                     </div>
                     <div class="col-lg-2">
-                        <p style="text-align: center;padding-top: 5px;">INR <span style="font-size: 20px;font-weight: 600;">1899</span></p>
+                        <p style="text-align: center;padding-top: 5px;">INR <span
+                                style="font-size: 20px;font-weight: 600;">1899</span></p>
                     </div>
+                </div>
+                <!---->
+                <div class="row bg-danger-subtle">
+                    <div class="col-lg-6">
+                        <p style="font-size: 12px;">A/c Slepper(2+1)</p>
                     </div>
-                                 <!---->
-                    <div class="row bg-danger-subtle">
-                        <div class="col-lg-6">
-                            <p style="font-size: 12px;">A/c Slepper(2+1)</p>
-                        </div>
                     <div class="col-lg-1">
                         <p style="color: red;font-weight: 200;">12-Aug</p>
                     </div>
                     <div class="col-lg-3">
-                        <p style="font-size: 15px;"><i class="fa-solid fa-users"></i><span style="padding-left: 10px;">706</span></p>
+                        <p style="font-size: 15px;"><i class="fa-solid fa-users"></i><span
+                                style="padding-left: 10px;">706</span></p>
                     </div>
                     <div class="col-lg-2">
                         <p style="font-size: 15px;font-weight: 300;">7 Seats available </p>
                     </div>
-                    </div>
-    
-                                <!---->
-                <div class="row bg-danger-subtle">
-                <div class="col-lg-4">
+                </div>
 
-                </div>
+                <!---->
+                <div class="row bg-danger-subtle">
+                    <div class="col-lg-4">
+
+                    </div>
                     <div class="col-lg-2">
-                     <p style="font-size: 12px;">Koyambedu</p>   
-                </div>
-                
-                <div class="col-lg-2">
-                    <p style="font-size: 12px;">Mattuthavani</p>
-                </div>
-                <div class="col-lg-2">
-                
-                </div>
-                <div class="col-lg-2">
-                    <p style="font-size: 15px;font-weight: 300;">2 Single</p>
-                </div>
+                        <p style="font-size: 12px;">Koyambedu</p>
+                    </div>
+
+                    <div class="col-lg-2">
+                        <p style="font-size: 12px;">Mattuthavani</p>
+                    </div>
+                    <div class="col-lg-2">
+
+                    </div>
+                    <div class="col-lg-2">
+                        <p style="font-size: 15px;font-weight: 300;">2 Single</p>
+                    </div>
                 </div>
                 <!---->
                 <div class="row bg-danger-subtle mb-0">
                     <div class="col-lg-2" style="font-size: 15px;">
-                        <p><i class="fa-solid fa-bottle-water"></i><span><i style="padding-left: 10PX;" class="fa-solid fa-charging-station"></i></span><i style="padding-left: 10px;" class="fa-solid fa-tv"></i><span><i style="padding-left: 10px;" class="fa-solid fa-video"></i></span><span><i style="padding-left: 10px;" class="fa-solid fa-circle-plus"></i></span><span style="padding-left: 8px;">2</span></p>
-                        
+                        <p><i class="fa-solid fa-bottle-water"></i><span><i style="padding-left: 10PX;"
+                                    class="fa-solid fa-charging-station"></i></span><i style="padding-left: 10px;"
+                                class="fa-solid fa-tv"></i><span><i style="padding-left: 10px;"
+                                    class="fa-solid fa-video"></i></span><span><i style="padding-left: 10px;"
+                                    class="fa-solid fa-circle-plus"></i></span><span style="padding-left: 8px;">2</span>
+                        </p>
+
                     </div>
                     <div class="col-lg-2">
-                        
+
+                    </div>
+                    <div class="col-lg-2">
+
+                    </div>
+                    <div class="col-lg-2">
+
+                    </div>
+                    <div class="col-lg-1">
+
+                    </div>
+                    <div class="col-lg-1">
+                    </div>
                 </div>
-                <div class="col-lg-2">
-                    
+                <!---->
+                <div class="row bg-danger-subtle">
+                    <div class="col-lg-10">
+
+                    </div>
+                    <div class="col-lg-2 " style="">
+                        <p style="background-color: #E9555D;text-align: center; font-size: 15px; ;"><a href="#"
+                                style="text-decoration: none; color: white;">VIEW SEATS</a></p>
+                    </div>
                 </div>
-                <div class="col-lg-2">
-                  
-                </div>
-                <div class="col-lg-1">
-                    
-                </div>
-                <div class="col-lg-1">
-                   </div>
-                </div>
-    <!---->
-    <div class="row bg-danger-subtle">
-    <div class="col-lg-10">
-        
-    </div>
-    <div class="col-lg-2 " style="">
-    <p style="background-color: #E9555D;text-align: center; font-size: 15px; ;"><a href="#" style="text-decoration: none; color: white;">VIEW SEATS</a></p>
-    </div>
-    </div>
-    
-          <!--Container-->  </div>
-         
-            <div class="container" style="background-color: #EEEDED; padding-bottom: 20px;font-family: 'Montserrat', sans-serif;  ">
+
+                <!--Container-->
+            </div>
+
+            <div class="container"
+                style="background-color: #EEEDED; padding-bottom: 20px;font-family: 'Montserrat', sans-serif;  ">
                 <div class="row" style=" margin-top: 20px;margin-left: 70px;">
                     <div class=" col-lg-2 " style="text-align: end;">
                         <p style="font-size: 15px;font-weight: 600; padding-top: 18px;">Seat Price</p>
                     </div>
                     <div class="col-lg-1" style="padding-top: 6px;">
-                        <button type="button" style="width: 100%;border-style: none;color: #fff; font-weight: 600;font-size: 15px;margin-top: 10px; text-align: center; background-color: #545454;" >All</button>
-                </div>
-                <div class="col-lg-1" style="padding-top: 6px;">
-                    <button type="button" style="width: 100%;border-style: none;background-color: #fff; font-weight: 600;font-size: 15px;margin-top: 10px; text-align: center; color: #545454;" >2933</button>
-                    <span style="color: #181717; font-size: 12px; padding-left: 20px; text-decoration:line-through;">3010</span>
-            </div>
-            <div class="col-lg-1" style="padding-top: 6px;">
-                <button type="button" style="width: 100%;border-style: none;background-color: #fff; font-weight: 600;font-size: 15px;margin-top: 10px; text-align: center; color: #545454;" >3093</button>
-                <span style="color: #181717; font-size: 12px; padding-left: 20px; text-decoration:line-through;">3170</span>
-            
-            </div>
-        <div class="col-lg-1" style="padding-top: 6px;">
-            <button type="button" style="width: 100%;border-style: none;background-color: #fff; font-weight: 600;font-size: 15px;margin-top: 10px; text-align: center; color: #545454;" >3913</button>
-            <span style="color: #181717; font-size: 12px; padding-left: 20px; text-decoration:line-through;">3990</span>
-            
-        </div>
-    <div class="col-lg-1" style="padding-top: 6px;">
-        <button type="button" style="width: 100%;border-style: none;background-color: #fff; font-weight: 600;font-size: 15px;margin-top: 10px; text-align: center; color: #545454;" >4113</button>
-        <span style="color: #181717; font-size: 12px; padding-left: 20px; text-decoration:line-through;">4190</span>
-        
-            
-    </div>
+                        <button type="button"
+                            style="width: 100%;border-style: none;color: #fff; font-weight: 600;font-size: 15px;margin-top: 10px; text-align: center; background-color: #545454;">All</button>
+                    </div>
+                    <div class="col-lg-1" style="padding-top: 6px;">
+                        <button type="button"
+                            style="width: 100%;border-style: none;background-color: #fff; font-weight: 600;font-size: 15px;margin-top: 10px; text-align: center; color: #545454;">2933</button>
+                        <span
+                            style="color: #181717; font-size: 12px; padding-left: 20px; text-decoration:line-through;">3010</span>
+                    </div>
+                    <div class="col-lg-1" style="padding-top: 6px;">
+                        <button type="button"
+                            style="width: 100%;border-style: none;background-color: #fff; font-weight: 600;font-size: 15px;margin-top: 10px; text-align: center; color: #545454;">3093</button>
+                        <span
+                            style="color: #181717; font-size: 12px; padding-left: 20px; text-decoration:line-through;">3170</span>
+
+                    </div>
+                    <div class="col-lg-1" style="padding-top: 6px;">
+                        <button type="button"
+                            style="width: 100%;border-style: none;background-color: #fff; font-weight: 600;font-size: 15px;margin-top: 10px; text-align: center; color: #545454;">3913</button>
+                        <span
+                            style="color: #181717; font-size: 12px; padding-left: 20px; text-decoration:line-through;">3990</span>
+
+                    </div>
+                    <div class="col-lg-1" style="padding-top: 6px;">
+                        <button type="button"
+                            style="width: 100%;border-style: none;background-color: #fff; font-weight: 600;font-size: 15px;margin-top: 10px; text-align: center; color: #545454;">4113</button>
+                        <span
+                            style="color: #181717; font-size: 12px; padding-left: 20px; text-decoration:line-through;">4190</span>
+
+
+                    </div>
                 </div>
                 <hr style="height:2px;border-width:0;width:100%; color:black;background-color:black">
-                
+
                 <div class="row" style="">
-<div class="col-6 d-block" style="padding-left: 100px ;margin-top: 40px;">
-    <div style="padding-left: 50px;">
-        <p style="font-size: 13px; background-color: #D84E55;color: #fff;text-align: center;width:fit-content;">Click on an Available seat to proceed with your transaction.</p>
-    </div>
-    
-<div>
-    <span>Lower Deck</span>
-<img src="./images/busticket.png" alt="">
-</div>
-<div style="padding-top: 10px;">
-    <span>Upper Deck</span>
-<img src="./images/busticket1.png" alt="">
-</div>
-</div>
-<div class="col-6" style="margin-top:15px ; padding-left: 90px;">
-    <p style="font-weight: 900; font-size:15px ; padding-left: 50px;">SEAT LEGEND</p>
-<div style="display: flex;padding-left: 50px; padding-top: 10px;">
-    <div style="display: flex;">
-        <button style="width: 40px;height: 20px;background-color:#fff;border-color: #545454;border-width: 1px;"></button><p style="font-size: 12px;font-weight: 300; padding-left: 10px;">Available</p>
-    </div>
-    <div style="display: flex; padding-left: 30px;">
-        <button style=" width: 40px;height: 20px;background-color:#CBCBCB;border-color: #545454; border-width: 0;"></button><p style="font-size: 12px;font-weight: 100;padding-left: 10px;">Unavailable</p>
-    </div>
+                    <div class="col-6 d-block" style="padding-left: 100px ;margin-top: 40px;">
+                        <div style="padding-left: 50px;">
+                            <p
+                                style="font-size: 13px; background-color: #D84E55;color: #fff;text-align: center;width:fit-content;">
+                                Click on an Available seat to proceed with your transaction.</p>
+                        </div>
 
-</div>
-<div style="display: flex;padding-left: 50px;">
-    <button style=" width: 40px;height: 20px;background-color:#fff;border-color: red; border-width: 1px;"></button><p style="font-size: 12px;font-weight: 100;padding-left: 10px;">Female</p>
-</div>
-    
-   
-</div>
-<div>
-    
-</div>
+                        <div>
+                            <span>Lower Deck</span>
+                            <img src="./images/busticket.png" alt="">
+                        </div>
+                        <div style="padding-top: 10px;">
+                            <span>Upper Deck</span>
+                            <img src="./images/busticket1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6" style="margin-top:15px ; padding-left: 90px;">
+                        <p style="font-weight: 900; font-size:15px ; padding-left: 50px;">SEAT LEGEND</p>
+                        <div style="display: flex;padding-left: 50px; padding-top: 10px;">
+                            <div style="display: flex;">
+                                <button
+                                    style="width: 40px;height: 20px;background-color:#fff;border-color: #545454;border-width: 1px;"></button>
+                                <p style="font-size: 12px;font-weight: 300; padding-left: 10px;">Available</p>
+                            </div>
+                            <div style="display: flex; padding-left: 30px;">
+                                <button
+                                    style=" width: 40px;height: 20px;background-color:#CBCBCB;border-color: #545454; border-width: 0;"></button>
+                                <p style="font-size: 12px;font-weight: 100;padding-left: 10px;">Unavailable</p>
+                            </div>
+
+                        </div>
+                        <div style="display: flex;padding-left: 50px;">
+                            <button
+                                style=" width: 40px;height: 20px;background-color:#fff;border-color: red; border-width: 1px;"></button>
+                            <p style="font-size: 12px;font-weight: 100;padding-left: 10px;">Female</p>
+                        </div>
+
+
+                    </div>
+                    <div>
+
+                    </div>
                 </div>
-                
-          </div>
-      <!--Second Container-->    
-          <div class="container" style="height: fit-content; margin-top: 10px;font-family: 'Montserrat', sans-serif;  ">
-            <div class="row bg-danger-subtle" style="margin-top: 20px;padding-top: 20px;">
-                <div class="col-lg-4">
-                    <p style="font-size: 15px;font-weight: 600;padding-top: 10px;">Egloo Travels</p>
+
+            </div>
+            <!--Second Container-->
+            <div class="container"
+                style="height: fit-content; margin-top: 10px;font-family: 'Montserrat', sans-serif;  ">
+                <div class="row bg-danger-subtle" style="margin-top: 20px;padding-top: 20px;">
+                    <div class="col-lg-4">
+                        <p style="font-size: 15px;font-weight: 600;padding-top: 10px;">Egloo Travels</p>
+                    </div>
+                    <div class="col-lg-1 ">
+                        <p style="font-weight: 600;font-size: 20px;padding-top: 5px;text-align: center;">21:15</p>
+                    </div>
+                    <div class="col-lg-1">
+                        <p style="font-size: 14px;padding-top: 10px; text-align: center;">08h 15m</p>
+                    </div>
+                    <div class="col-lg-1">
+                        <p style="font-size: 20px;font-weight: 600; padding-top: 5px;text-align: center;">5:30</p>
+                    </div>
+                    <div class="col-lg-1" style="padding-top: 7px; ">
+                        <button type="button"
+                            style="border-radius: 5px;font-size:13px ; border-color: transparent;background-color: green;color: white; text-align: center;"><i
+                                class="fa-solid fa-star"></i>4.6</button>
+                    </div>
+                    <div class="col-lg-2">
+                        <p style="text-align: center;padding-top: 5px;">INR <span
+                                style="font-size: 20px;font-weight: 600;">1899</span></p>
+                    </div>
                 </div>
-                <div class="col-lg-1 ">
-                    <p style="font-weight: 600;font-size: 20px;padding-top: 5px;text-align: center;" >21:15</p>
-            </div>
-            <div class="col-lg-1">
-                <p style="font-size: 14px;padding-top: 10px; text-align: center;">08h 15m</p>
-            </div>
-            <div class="col-lg-1">
-                <p style="font-size: 20px;font-weight: 600; padding-top: 5px;text-align: center;">5:30</p>
-            </div>
-            <div class="col-lg-1" style="padding-top: 7px; ">
-                <button type="button" style="border-radius: 5px;font-size:13px ; border-color: transparent;background-color: green;color: white; text-align: center;" ><i class="fa-solid fa-star"></i>4.6</button>
-            </div>
-            <div class="col-lg-2">
-                <p style="text-align: center;padding-top: 5px;">INR <span style="font-size: 20px;font-weight: 600;">1899</span></p>
-            </div>
-            </div>
-                         <!---->
-            <div class="row bg-danger-subtle">
-                <div class="col-lg-6">
-                    <p style="font-size: 12px;">A/c Slepper(2+1)</p>
+                <!---->
+                <div class="row bg-danger-subtle">
+                    <div class="col-lg-6">
+                        <p style="font-size: 12px;">A/c Slepper(2+1)</p>
+                    </div>
+                    <div class="col-lg-1">
+                        <p style="color: red;font-weight: 200;">12-Aug</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <p style="font-size: 15px;"><i class="fa-solid fa-users"></i><span
+                                style="padding-left: 10px;">706</span></p>
+                    </div>
+                    <div class="col-lg-2">
+                        <p style="font-size: 15px;font-weight: 300;">7 Seats available </p>
+                    </div>
                 </div>
-            <div class="col-lg-1">
-                <p style="color: red;font-weight: 200;">12-Aug</p>
-            </div>
-            <div class="col-lg-3">
-                <p style="font-size: 15px;"><i class="fa-solid fa-users"></i><span style="padding-left: 10px;">706</span></p>
-            </div>
-            <div class="col-lg-2">
-                <p style="font-size: 15px;font-weight: 300;">7 Seats available </p>
-            </div>
-            </div>
-
-                        <!---->
-        <div class="row bg-danger-subtle">
-        <div class="col-lg-4">
-
-        </div>
-            <div class="col-lg-2">
-             <p style="font-size: 12px;">Koyambedu</p>   
-        </div>
-        
-        <div class="col-lg-2">
-            <p style="font-size: 12px;">Mattuthavani</p>
-        </div>
-        <div class="col-lg-2">
-        
-        </div>
-        <div class="col-lg-2">
-            <p style="font-size: 15px;font-weight: 300;">2 Single</p>
-        </div>
-        </div>
-        <!---->
-        <div class="row bg-danger-subtle mb-0">
-            <div class="col-lg-2" style="font-size: 15px;">
-                <p><i class="fa-solid fa-bottle-water"></i><span><i style="padding-left: 10PX;" class="fa-solid fa-charging-station"></i></span><i style="padding-left: 10px;" class="fa-solid fa-tv"></i><span><i style="padding-left: 10px;" class="fa-solid fa-video"></i></span><span><i style="padding-left: 10px;" class="fa-solid fa-circle-plus"></i></span><span style="padding-left: 8px;">2</span></p>
-                
-            </div>
-            <div class="col-lg-2">
-                
-        </div>
-        <div class="col-lg-2">
-            
-        </div>
-        <div class="col-lg-2">
-          
-        </div>
-        <div class="col-lg-1">
-            
-        </div>
-        <div class="col-lg-1">
-           </div>
-        </div>
-<!---->
-<div class="row bg-danger-subtle">
-<div class="col-lg-10">
-
-</div>
-<div class="col-lg-2 ">
-<p style="background-color: #E9555D;text-align: center; font-size: 15px; ;"><a href="#" style="text-decoration: none; color: white;">VIEW SEATS</a></p>
-</div>
-</div>
-<!--View Search Page-->
-<div class="container" style="background-color: #EEEDED; padding-bottom: 20px;font-family: 'Montserrat', sans-serif;  ">
-    <div class="row" style=" margin-top: 20px;margin-left: 70px;">
-        <div class=" col-lg-2 " style="text-align: end;">
-            <p style="font-size: 15px;font-weight: 600; padding-top: 18px;">Seat Price</p>
-        </div>
-        <div class="col-lg-1" style="padding-top: 6px;">
-            <button type="button" style="width: 100%;border-style: none;color: #fff; font-weight: 600;font-size: 15px;margin-top: 10px; text-align: center; background-color: #545454;" >All</button>
-    </div>
-    <div class="col-lg-1" style="padding-top: 6px;">
-        <button type="button" style="width: 100%;border-style: none;background-color: #fff; font-weight: 600;font-size: 15px;margin-top: 10px; text-align: center; color: #545454;" >2933</button>
-        <span style="color: #181717; font-size: 12px; padding-left: 20px; text-decoration:line-through;">3010</span>
-</div>
-<div class="col-lg-1" style="padding-top: 6px;">
-    <button type="button" style="width: 100%;border-style: none;background-color: #fff; font-weight: 600;font-size: 15px;margin-top: 10px; text-align: center; color: #545454;" >3093</button>
-    <span style="color: #181717; font-size: 12px; padding-left: 20px; text-decoration:line-through;">3170</span>
-
-</div>
-<div class="col-lg-1" style="padding-top: 6px;">
-<button type="button" style="width: 100%;border-style: none;background-color: #fff; font-weight: 600;font-size: 15px;margin-top: 10px; text-align: center; color: #545454;" >3913</button>
-<span style="color: #181717; font-size: 12px; padding-left: 20px; text-decoration:line-through;">3990</span>
-
-</div>
-<div class="col-lg-1" style="padding-top: 6px;">
-<button type="button" style="width: 100%;border-style: none;background-color: #fff; font-weight: 600;font-size: 15px;margin-top: 10px; text-align: center; color: #545454;" >4113</button>
-<span style="color: #181717; font-size: 12px; padding-left: 20px; text-decoration:line-through;">4190</span>
-
-
-</div>
-    </div>
-    <hr style="height:2px;border-width:0;width:100%; color:black;background-color:black">
-    
-    <div class="row" style="">
-<div class="col-6 d-block" style="padding-left: 100px ;margin-top: 40px;">
-<div style="padding-left: 50px;">
-<p style="font-size: 13px; background-color: #D84E55;color: #fff;text-align: center;width:fit-content;">Click on an Available seat to proceed with your transaction.</p>
-</div>
-
-<div>
-<span>Lower Deck</span>
-<img src="./images/busticket.png" alt="">
-</div>
-<div style="padding-top: 10px;">
-<span>Upper Deck</span>
-<img src="./images/busticket1.png" alt="">
-</div>
-</div>
-<div class="col-6" style="margin-top:15px ; padding-left: 90px;">
-<p style="font-weight: 900; font-size:15px ; padding-left: 50px;">SEAT LEGEND</p>
-<div style="display: flex;padding-left: 50px; padding-top: 10px;">
-<div style="display: flex;">
-<button style="width: 40px;height: 20px;background-color:#fff;border-color: #545454;border-width: 1px;"></button><p style="font-size: 12px;font-weight: 300; padding-left: 10px;">Available</p>
-</div>
-<div style="display: flex; padding-left: 30px;">
-<button style=" width: 40px;height: 20px;background-color:#CBCBCB;border-color: #545454; border-width: 0;"></button><p style="font-size: 12px;font-weight: 100;padding-left: 10px;">Unavailable</p>
-</div>
-
-</div>
-<div style="display: flex;padding-left: 50px;">
-<button style=" width: 40px;height: 20px;background-color:#fff;border-color: red; border-width: 1px;"></button><p style="font-size: 12px;font-weight: 100;padding-left: 10px;">Female</p>
-</div>
-
-
-</div>
-<div>
-
-</div>
-    </div>
-    
-</div>
-  <!--Container-->  </div>
-  <div class="container" style="height: fit-content; margin-top: 10px;font-family: 'Montserrat', sans-serif;  ">
-    <div class="row bg-danger-subtle" style="margin-top: 20px;padding-top: 20px;">
-        <div class="col-lg-4">
-            <p style="font-size: 15px;font-weight: 600;padding-top: 10px;">Egloo Travels</p>
-        </div>
-        <div class="col-lg-1 ">
-            <p style="font-weight: 600;font-size: 20px;padding-top: 5px;text-align: center;" >21:15</p>
-    </div>
-    <div class="col-lg-1">
-        <p style="font-size: 14px;padding-top: 10px; text-align: center;">08h 15m</p>
-    </div>
-    <div class="col-lg-1">
-        <p style="font-size: 20px;font-weight: 600; padding-top: 5px;text-align: center;">5:30</p>
-    </div>
-    <div class="col-lg-1" style="padding-top: 7px; ">
-        <button type="button" style="border-radius: 5px;font-size:13px ; border-color: transparent;background-color: green;color: white; text-align: center;" ><i class="fa-solid fa-star"></i>4.6</button>
-    </div>
-    <div class="col-lg-2">
-        <p style="text-align: center;padding-top: 5px;">INR <span style="font-size: 20px;font-weight: 600;">1899</span></p>
-    </div>
-    </div>
-                 <!---->
-    <div class="row bg-danger-subtle">
-        <div class="col-lg-6">
-            <p style="font-size: 12px;">A/c Slepper(2+1)</p>
-        </div>
-    <div class="col-lg-1">
-        <p style="color: red;font-weight: 200;">12-Aug</p>
-    </div>
-    <div class="col-lg-3">
-        <p style="font-size: 15px;"><i class="fa-solid fa-users"></i><span style="padding-left: 10px;">706</span></p>
-    </div>
-    <div class="col-lg-2">
-        <p style="font-size: 15px;font-weight: 300;">7 Seats available </p>
-    </div>
-    </div>
 
                 <!---->
-<div class="row bg-danger-subtle">
-<div class="col-lg-4">
+                <div class="row bg-danger-subtle">
+                    <div class="col-lg-4">
 
-</div>
-    <div class="col-lg-2">
-     <p style="font-size: 12px;">Koyambedu</p>   
-</div>
+                    </div>
+                    <div class="col-lg-2">
+                        <p style="font-size: 12px;">Koyambedu</p>
+                    </div>
 
-<div class="col-lg-2">
-    <p style="font-size: 12px;">Mattuthavani</p>
-</div>
-<div class="col-lg-2">
+                    <div class="col-lg-2">
+                        <p style="font-size: 12px;">Mattuthavani</p>
+                    </div>
+                    <div class="col-lg-2">
 
-</div>
-<div class="col-lg-2">
-    <p style="font-size: 15px;font-weight: 300;">2 Single</p>
-</div>
-</div>
-<!---->
-<div class="row bg-danger-subtle mb-0">
-    <div class="col-lg-2" style="font-size: 15px;">
-        <p><i class="fa-solid fa-bottle-water"></i><span><i style="padding-left: 10PX;" class="fa-solid fa-charging-station"></i></span><i style="padding-left: 10px;" class="fa-solid fa-tv"></i><span><i style="padding-left: 10px;" class="fa-solid fa-video"></i></span><span><i style="padding-left: 10px;" class="fa-solid fa-circle-plus"></i></span><span style="padding-left: 8px;">2</span></p>
-        
-    </div>
-    <div class="col-lg-2">
-        
-</div>
-<div class="col-lg-2">
-    
-</div>
-<div class="col-lg-2">
-  
-</div>
-<div class="col-lg-1">
-    
-</div>
-<div class="col-lg-1">
-   </div>
-</div>
-<!---->
-<div class="row bg-danger-subtle">
-<div class="col-lg-10">
+                    </div>
+                    <div class="col-lg-2">
+                        <p style="font-size: 15px;font-weight: 300;">2 Single</p>
+                    </div>
+                </div>
+                <!---->
+                <div class="row bg-danger-subtle mb-0">
+                    <div class="col-lg-2" style="font-size: 15px;">
+                        <p><i class="fa-solid fa-bottle-water"></i><span><i style="padding-left: 10PX;"
+                                    class="fa-solid fa-charging-station"></i></span><i style="padding-left: 10px;"
+                                class="fa-solid fa-tv"></i><span><i style="padding-left: 10px;"
+                                    class="fa-solid fa-video"></i></span><span><i style="padding-left: 10px;"
+                                    class="fa-solid fa-circle-plus"></i></span><span style="padding-left: 8px;">2</span>
+                        </p>
 
-</div>
-<div class="col-lg-2 " style="">
-<p style="background-color: #E9555D;text-align: center; font-size: 15px; ;"><a href="#" style="text-decoration: none; color: white;">VIEW SEATS</a></p>
-</div>
-</div>
-<!--View Seats-->
+                    </div>
+                    <div class="col-lg-2">
+
+                    </div>
+                    <div class="col-lg-2">
+
+                    </div>
+                    <div class="col-lg-2">
+
+                    </div>
+                    <div class="col-lg-1">
+
+                    </div>
+                    <div class="col-lg-1">
+                    </div>
+                </div>
+                <!---->
+                <div class="row bg-danger-subtle">
+                    <div class="col-lg-10">
+
+                    </div>
+                    <div class="col-lg-2 ">
+                        <p style="background-color: #E9555D;text-align: center; font-size: 15px; ;"><a href="#"
+                                style="text-decoration: none; color: white;">VIEW SEATS</a></p>
+                    </div>
+                </div>
+                <!--Container--></div>
+                <!--Second container view seats-->
+                <!--View Search Page-->
 <div class="container" style="background-color: #EEEDED; padding-bottom: 20px;font-family: 'Montserrat', sans-serif;  ">
     <div class="row" style=" margin-top: 20px;margin-left: 70px;">
         <div class=" col-lg-2 " style="text-align: end;">
@@ -734,451 +689,720 @@
     </div>
     
 </div>
-<!--Container-->  </div>
-<div class="container" style="height: fit-content; margin-top: 10px;font-family: 'Montserrat', sans-serif;  ">
-    <div class="row bg-danger-subtle" style="margin-top: 20px;padding-top: 20px;">
-        <div class="col-lg-4">
-            <p style="font-size: 15px;font-weight: 600;padding-top: 10px;">Egloo Travels</p>
-        </div>
-        <div class="col-lg-1 ">
-            <p style="font-weight: 600;font-size: 20px;padding-top: 5px;text-align: center;" >21:15</p>
-    </div>
-    <div class="col-lg-1">
-        <p style="font-size: 14px;padding-top: 10px; text-align: center;">08h 15m</p>
-    </div>
-    <div class="col-lg-1">
-        <p style="font-size: 20px;font-weight: 600; padding-top: 5px;text-align: center;">5:30</p>
-    </div>
-    <div class="col-lg-1" style="padding-top: 7px; ">
-        <button type="button" style="border-radius: 5px;font-size:13px ; border-color: transparent;background-color: green;color: white; text-align: center;" ><i class="fa-solid fa-star"></i>4.6</button>
-    </div>
-    <div class="col-lg-2">
-        <p style="text-align: center;padding-top: 5px;">INR <span style="font-size: 20px;font-weight: 600;">1899</span></p>
-    </div>
-    </div>
-                 <!---->
-    <div class="row bg-danger-subtle">
-        <div class="col-lg-6">
-            <p style="font-size: 12px;">A/c Slepper(2+1)</p>
-        </div>
-    <div class="col-lg-1">
-        <p style="color: red;font-weight: 200;">12-Aug</p>
-    </div>
-    <div class="col-lg-3">
-        <p style="font-size: 15px;"><i class="fa-solid fa-users"></i><span style="padding-left: 10px;">706</span></p>
-    </div>
-    <div class="col-lg-2">
-        <p style="font-size: 15px;font-weight: 300;">7 Seats available </p>
-    </div>
-    </div>
+                <!--End of second container view seats -->
+                <!--Third Container Starts-->
+            <div class="container"
+                style="height: fit-content; margin-top: 10px;font-family: 'Montserrat', sans-serif;  ">
+                <div class="row bg-danger-subtle" style="margin-top: 20px;padding-top: 20px;">
+                    <div class="col-lg-4">
+                        <p style="font-size: 15px;font-weight: 600;padding-top: 10px;">Egloo Travels</p>
+                    </div>
+                    <div class="col-lg-1 ">
+                        <p style="font-weight: 600;font-size: 20px;padding-top: 5px;text-align: center;">21:15</p>
+                    </div>
+                    <div class="col-lg-1">
+                        <p style="font-size: 14px;padding-top: 10px; text-align: center;">08h 15m</p>
+                    </div>
+                    <div class="col-lg-1">
+                        <p style="font-size: 20px;font-weight: 600; padding-top: 5px;text-align: center;">5:30</p>
+                    </div>
+                    <div class="col-lg-1" style="padding-top: 7px; ">
+                        <button type="button"
+                            style="border-radius: 5px;font-size:13px ; border-color: transparent;background-color: green;color: white; text-align: center;"><i
+                                class="fa-solid fa-star"></i>4.6</button>
+                    </div>
+                    <div class="col-lg-2">
+                        <p style="text-align: center;padding-top: 5px;">INR <span
+                                style="font-size: 20px;font-weight: 600;">1899</span></p>
+                    </div>
+                </div>
+                <!---->
+                <div class="row bg-danger-subtle">
+                    <div class="col-lg-6">
+                        <p style="font-size: 12px;">A/c Slepper(2+1)</p>
+                    </div>
+                    <div class="col-lg-1">
+                        <p style="color: red;font-weight: 200;">12-Aug</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <p style="font-size: 15px;"><i class="fa-solid fa-users"></i><span
+                                style="padding-left: 10px;">706</span></p>
+                    </div>
+                    <div class="col-lg-2">
+                        <p style="font-size: 15px;font-weight: 300;">7 Seats available </p>
+                    </div>
+                </div>
 
                 <!---->
-<div class="row bg-danger-subtle">
-<div class="col-lg-4">
+                <div class="row bg-danger-subtle">
+                    <div class="col-lg-4">
 
-</div>
-    <div class="col-lg-2">
-     <p style="font-size: 12px;">Koyambedu</p>   
-</div>
+                    </div>
+                    <div class="col-lg-2">
+                        <p style="font-size: 12px;">Koyambedu</p>
+                    </div>
 
-<div class="col-lg-2">
-    <p style="font-size: 12px;">Mattuthavani</p>
-</div>
-<div class="col-lg-2">
+                    <div class="col-lg-2">
+                        <p style="font-size: 12px;">Mattuthavani</p>
+                    </div>
+                    <div class="col-lg-2">
 
-</div>
-<div class="col-lg-2">
-    <p style="font-size: 15px;font-weight: 300;">2 Single</p>
-</div>
-</div>
-<!---->
-<div class="row bg-danger-subtle mb-0">
-    <div class="col-lg-2" style="font-size: 15px;">
-        <p><i class="fa-solid fa-bottle-water"></i><span><i style="padding-left: 10PX;" class="fa-solid fa-charging-station"></i></span><i style="padding-left: 10px;" class="fa-solid fa-tv"></i><span><i style="padding-left: 10px;" class="fa-solid fa-video"></i></span><span><i style="padding-left: 10px;" class="fa-solid fa-circle-plus"></i></span><span style="padding-left: 8px;">2</span></p>
-        
-    </div>
-    <div class="col-lg-2">
-        
-</div>
-<div class="col-lg-2">
-    
-</div>
-<div class="col-lg-2">
-  
-</div>
-<div class="col-lg-1">
-    
-</div>
-<div class="col-lg-1">
-   </div>
-</div>
-<!---->
-<div class="row bg-danger-subtle">
-<div class="col-lg-10">
+                    </div>
+                    <div class="col-lg-2">
+                        <p style="font-size: 15px;font-weight: 300;">2 Single</p>
+                    </div>
+                </div>
+                <!---->
+                <div class="row bg-danger-subtle mb-0">
+                    <div class="col-lg-2" style="font-size: 15px;">
+                        <p><i class="fa-solid fa-bottle-water"></i><span><i style="padding-left: 10PX;"
+                                    class="fa-solid fa-charging-station"></i></span><i style="padding-left: 10px;"
+                                class="fa-solid fa-tv"></i><span><i style="padding-left: 10px;"
+                                    class="fa-solid fa-video"></i></span><span><i style="padding-left: 10px;"
+                                    class="fa-solid fa-circle-plus"></i></span><span style="padding-left: 8px;">2</span>
+                        </p>
 
-</div>
-<div class="col-lg-2 " style="">
-<p style="background-color: #E9555D;text-align: center; font-size: 15px; ;"><a href="#" style="text-decoration: none; color: white;">VIEW SEATS</a></p>
-</div>
-</div>
-<!--View Search-->
-<div class="container" style="background-color: #EEEDED; padding-bottom: 20px;font-family: 'Montserrat', sans-serif;  ">
-    <div class="row" style=" margin-top: 20px;margin-left: 70px;">
-        <div class=" col-lg-2 " style="text-align: end;">
-            <p style="font-size: 15px;font-weight: 600; padding-top: 18px;">Seat Price</p>
-        </div>
-        <div class="col-lg-1" style="padding-top: 6px;">
-            <button type="button" style="width: 100%;border-style: none;color: #fff; font-weight: 600;font-size: 15px;margin-top: 10px; text-align: center; background-color: #545454;" >All</button>
-    </div>
-    <div class="col-lg-1" style="padding-top: 6px;">
-        <button type="button" style="width: 100%;border-style: none;background-color: #fff; font-weight: 600;font-size: 15px;margin-top: 10px; text-align: center; color: #545454;" >2933</button>
-        <span style="color: #181717; font-size: 12px; padding-left: 20px; text-decoration:line-through;">3010</span>
-</div>
-<div class="col-lg-1" style="padding-top: 6px;">
-    <button type="button" style="width: 100%;border-style: none;background-color: #fff; font-weight: 600;font-size: 15px;margin-top: 10px; text-align: center; color: #545454;" >3093</button>
-    <span style="color: #181717; font-size: 12px; padding-left: 20px; text-decoration:line-through;">3170</span>
+                    </div>
+                    <div class="col-lg-2">
 
-</div>
-<div class="col-lg-1" style="padding-top: 6px;">
-<button type="button" style="width: 100%;border-style: none;background-color: #fff; font-weight: 600;font-size: 15px;margin-top: 10px; text-align: center; color: #545454;" >3913</button>
-<span style="color: #181717; font-size: 12px; padding-left: 20px; text-decoration:line-through;">3990</span>
+                    </div>
+                    <div class="col-lg-2">
 
-</div>
-<div class="col-lg-1" style="padding-top: 6px;">
-<button type="button" style="width: 100%;border-style: none;background-color: #fff; font-weight: 600;font-size: 15px;margin-top: 10px; text-align: center; color: #545454;" >4113</button>
-<span style="color: #181717; font-size: 12px; padding-left: 20px; text-decoration:line-through;">4190</span>
+                    </div>
+                    <div class="col-lg-2">
 
+                    </div>
+                    <div class="col-lg-1">
 
-</div>
-    </div>
-    <hr style="height:2px;border-width:0;width:100%; color:black;background-color:black">
-    
-    <div class="row" style="">
-<div class="col-6 d-block" style="padding-left: 100px ;margin-top: 40px;">
-<div style="padding-left: 50px;">
-<p style="font-size: 13px; background-color: #D84E55;color: #fff;text-align: center;width:fit-content;">Click on an Available seat to proceed with your transaction.</p>
-</div>
+                    </div>
+                    <div class="col-lg-1">
+                    </div>
+                </div>
+                <!---->
+                <div class="row bg-danger-subtle">
+                    <div class="col-lg-10">
 
-<div>
-<span>Lower Deck</span>
-<img src="./images/busticket.png" alt="">
-</div>
-<div style="padding-top: 10px;">
-<span>Upper Deck</span>
-<img src="./images/busticket1.png" alt="">
-</div>
-</div>
-<div class="col-6" style="margin-top:15px ; padding-left: 90px;">
-<p style="font-weight: 900; font-size:15px ; padding-left: 50px;">SEAT LEGEND</p>
-<div style="display: flex;padding-left: 50px; padding-top: 10px;">
-<div style="display: flex;">
-<button style="width: 40px;height: 20px;background-color:#fff;border-color: #545454;border-width: 1px;"></button><p style="font-size: 12px;font-weight: 300; padding-left: 10px;">Available</p>
-</div>
-<div style="display: flex; padding-left: 30px;">
-<button style=" width: 40px;height: 20px;background-color:#CBCBCB;border-color: #545454; border-width: 0;"></button><p style="font-size: 12px;font-weight: 100;padding-left: 10px;">Unavailable</p>
-</div>
-
-</div>
-<div style="display: flex;padding-left: 50px;">
-<button style=" width: 40px;height: 20px;background-color:#fff;border-color: red; border-width: 1px;"></button><p style="font-size: 12px;font-weight: 100;padding-left: 10px;">Female</p>
-</div>
-
-
-</div>
-<div>
-
-</div>
-    </div>
-    
-</div>
-<!--Container-->  </div>
-<div class="container" style="height: fit-content; margin-top: 10px;font-family: 'Montserrat', sans-serif;  ">
-    <div class="row bg-danger-subtle" style="margin-top: 20px;padding-top: 20px;">
-        <div class="col-lg-4">
-            <p style="font-size: 15px;font-weight: 600;padding-top: 10px;">Egloo Travels</p>
-        </div>
-        <div class="col-lg-1 ">
-            <p style="font-weight: 600;font-size: 20px;padding-top: 5px;text-align: center;" >21:15</p>
-    </div>
-    <div class="col-lg-1">
-        <p style="font-size: 14px;padding-top: 10px; text-align: center;">08h 15m</p>
-    </div>
-    <div class="col-lg-1">
-        <p style="font-size: 20px;font-weight: 600; padding-top: 5px;text-align: center;">5:30</p>
-    </div>
-    <div class="col-lg-1" style="padding-top: 7px; ">
-        <button type="button" style="border-radius: 5px;font-size:13px ; border-color: transparent;background-color: green;color: white; text-align: center;" ><i class="fa-solid fa-star"></i>4.6</button>
-    </div>
-    <div class="col-lg-2">
-        <p style="text-align: center;padding-top: 5px;">INR <span style="font-size: 20px;font-weight: 600;">1899</span></p>
-    </div>
-    </div>
-                 <!---->
-    <div class="row bg-danger-subtle">
-        <div class="col-lg-6">
-            <p style="font-size: 12px;">A/c Slepper(2+1)</p>
-        </div>
-    <div class="col-lg-1">
-        <p style="color: red;font-weight: 200;">12-Aug</p>
-    </div>
-    <div class="col-lg-3">
-        <p style="font-size: 15px;"><i class="fa-solid fa-users"></i><span style="padding-left: 10px;">706</span></p>
-    </div>
-    <div class="col-lg-2">
-        <p style="font-size: 15px;font-weight: 300;">7 Seats available </p>
-    </div>
-    </div>
+                    </div>
+                    <div class="col-lg-2 ">
+                        <p style="background-color: #E9555D;text-align: center; font-size: 15px; ;"><a href="#"
+                                style="text-decoration: none; color: white;">VIEW SEATS</a></p>
+                    </div>
+                </div>
+                <!--Third Container ends--></div>
+                <!--Third Container View Seats Starts-->
+                <div class="container" style="background-color: #EEEDED; padding-bottom: 20px;font-family: 'Montserrat', sans-serif;  ">
+                    <div class="row" style=" margin-top: 20px;margin-left: 70px;">
+                        <div class=" col-lg-2 " style="text-align: end;">
+                            <p style="font-size: 15px;font-weight: 600; padding-top: 18px;">Seat Price</p>
+                        </div>
+                        <div class="col-lg-1" style="padding-top: 6px;">
+                            <button type="button" style="width: 100%;border-style: none;color: #fff; font-weight: 600;font-size: 15px;margin-top: 10px; text-align: center; background-color: #545454;" >All</button>
+                    </div>
+                    <div class="col-lg-1" style="padding-top: 6px;">
+                        <button type="button" style="width: 100%;border-style: none;background-color: #fff; font-weight: 600;font-size: 15px;margin-top: 10px; text-align: center; color: #545454;" >2933</button>
+                        <span style="color: #181717; font-size: 12px; padding-left: 20px; text-decoration:line-through;">3010</span>
+                </div>
+                <div class="col-lg-1" style="padding-top: 6px;">
+                    <button type="button" style="width: 100%;border-style: none;background-color: #fff; font-weight: 600;font-size: 15px;margin-top: 10px; text-align: center; color: #545454;" >3093</button>
+                    <span style="color: #181717; font-size: 12px; padding-left: 20px; text-decoration:line-through;">3170</span>
+                
+                </div>
+                <div class="col-lg-1" style="padding-top: 6px;">
+                <button type="button" style="width: 100%;border-style: none;background-color: #fff; font-weight: 600;font-size: 15px;margin-top: 10px; text-align: center; color: #545454;" >3913</button>
+                <span style="color: #181717; font-size: 12px; padding-left: 20px; text-decoration:line-through;">3990</span>
+                
+                </div>
+                <div class="col-lg-1" style="padding-top: 6px;">
+                <button type="button" style="width: 100%;border-style: none;background-color: #fff; font-weight: 600;font-size: 15px;margin-top: 10px; text-align: center; color: #545454;" >4113</button>
+                <span style="color: #181717; font-size: 12px; padding-left: 20px; text-decoration:line-through;">4190</span>
+                
+                
+                </div>
+                    </div>
+                    <hr style="height:2px;border-width:0;width:100%; color:black;background-color:black">
+                    
+                    <div class="row" style="">
+                <div class="col-6 d-block" style="padding-left: 100px ;margin-top: 40px;">
+                <div style="padding-left: 50px;">
+                <p style="font-size: 13px; background-color: #D84E55;color: #fff;text-align: center;width:fit-content;">Click on an Available seat to proceed with your transaction.</p>
+                </div>
+                
+                <div>
+                <span>Lower Deck</span>
+                <img src="./images/busticket.png" alt="">
+                </div>
+                <div style="padding-top: 10px;">
+                <span>Upper Deck</span>
+                <img src="./images/busticket1.png" alt="">
+                </div>
+                </div>
+                <div class="col-6" style="margin-top:15px ; padding-left: 90px;">
+                <p style="font-weight: 900; font-size:15px ; padding-left: 50px;">SEAT LEGEND</p>
+                <div style="display: flex;padding-left: 50px; padding-top: 10px;">
+                <div style="display: flex;">
+                <button style="width: 40px;height: 20px;background-color:#fff;border-color: #545454;border-width: 1px;"></button><p style="font-size: 12px;font-weight: 300; padding-left: 10px;">Available</p>
+                </div>
+                <div style="display: flex; padding-left: 30px;">
+                <button style=" width: 40px;height: 20px;background-color:#CBCBCB;border-color: #545454; border-width: 0;"></button><p style="font-size: 12px;font-weight: 100;padding-left: 10px;">Unavailable</p>
+                </div>
+                
+                </div>
+                <div style="display: flex;padding-left: 50px;">
+                <button style=" width: 40px;height: 20px;background-color:#fff;border-color: red; border-width: 1px;"></button><p style="font-size: 12px;font-weight: 100;padding-left: 10px;">Female</p>
+                </div>
+                
+                
+                </div>
+                <div>
+                
+                </div>
+                    </div>
+                    
+                </div>        
+<!--Third Container View Seats Ends-->
+<!--Fourth Container Starts-->
+            <div class="container"
+                style="height: fit-content; margin-top: 10px;font-family: 'Montserrat', sans-serif;  ">
+                <div class="row bg-danger-subtle" style="margin-top: 20px;padding-top: 20px;">
+                    <div class="col-lg-4">
+                        <p style="font-size: 15px;font-weight: 600;padding-top: 10px;">Egloo Travels</p>
+                    </div>
+                    <div class="col-lg-1 ">
+                        <p style="font-weight: 600;font-size: 20px;padding-top: 5px;text-align: center;">21:15</p>
+                    </div>
+                    <div class="col-lg-1">
+                        <p style="font-size: 14px;padding-top: 10px; text-align: center;">08h 15m</p>
+                    </div>
+                    <div class="col-lg-1">
+                        <p style="font-size: 20px;font-weight: 600; padding-top: 5px;text-align: center;">5:30</p>
+                    </div>
+                    <div class="col-lg-1" style="padding-top: 7px; ">
+                        <button type="button"
+                            style="border-radius: 5px;font-size:13px ; border-color: transparent;background-color: green;color: white; text-align: center;"><i
+                                class="fa-solid fa-star"></i>4.6</button>
+                    </div>
+                    <div class="col-lg-2">
+                        <p style="text-align: center;padding-top: 5px;">INR <span
+                                style="font-size: 20px;font-weight: 600;">1899</span></p>
+                    </div>
+                </div>
+                <!---->
+                <div class="row bg-danger-subtle">
+                    <div class="col-lg-6">
+                        <p style="font-size: 12px;">A/c Slepper(2+1)</p>
+                    </div>
+                    <div class="col-lg-1">
+                        <p style="color: red;font-weight: 200;">12-Aug</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <p style="font-size: 15px;"><i class="fa-solid fa-users"></i><span
+                                style="padding-left: 10px;">706</span></p>
+                    </div>
+                    <div class="col-lg-2">
+                        <p style="font-size: 15px;font-weight: 300;">7 Seats available </p>
+                    </div>
+                </div>
 
                 <!---->
-<div class="row bg-danger-subtle">
-<div class="col-lg-4">
+                <div class="row bg-danger-subtle">
+                    <div class="col-lg-4">
 
-</div>
-    <div class="col-lg-2">
-     <p style="font-size: 12px;">Koyambedu</p>   
-</div>
+                    </div>
+                    <div class="col-lg-2">
+                        <p style="font-size: 12px;">Koyambedu</p>
+                    </div>
 
-<div class="col-lg-2">
-    <p style="font-size: 12px;">Mattuthavani</p>
-</div>
-<div class="col-lg-2">
+                    <div class="col-lg-2">
+                        <p style="font-size: 12px;">Mattuthavani</p>
+                    </div>
+                    <div class="col-lg-2">
 
-</div>
-<div class="col-lg-2">
-    <p style="font-size: 15px;font-weight: 300;">2 Single</p>
-</div>
-</div>
-<!---->
-<div class="row bg-danger-subtle mb-0">
-    <div class="col-lg-2" style="font-size: 15px;">
-        <p><i class="fa-solid fa-bottle-water"></i><span><i style="padding-left: 10PX;" class="fa-solid fa-charging-station"></i></span><i style="padding-left: 10px;" class="fa-solid fa-tv"></i><span><i style="padding-left: 10px;" class="fa-solid fa-video"></i></span><span><i style="padding-left: 10px;" class="fa-solid fa-circle-plus"></i></span><span style="padding-left: 8px;">2</span></p>
-        
-    </div>
-    <div class="col-lg-2">
-        
-</div>
-<div class="col-lg-2">
-    
-</div>
-<div class="col-lg-2">
-  
-</div>
-<div class="col-lg-1">
-    
-</div>
-<div class="col-lg-1">
-   </div>
-</div>
-<!---->
-<div class="row bg-danger-subtle">
-<div class="col-lg-10">
+                    </div>
+                    <div class="col-lg-2">
+                        <p style="font-size: 15px;font-weight: 300;">2 Single</p>
+                    </div>
+                </div>
+                <!---->
+                <div class="row bg-danger-subtle mb-0">
+                    <div class="col-lg-2" style="font-size: 15px;">
+                        <p><i class="fa-solid fa-bottle-water"></i><span><i style="padding-left: 10PX;"
+                                    class="fa-solid fa-charging-station"></i></span><i style="padding-left: 10px;"
+                                class="fa-solid fa-tv"></i><span><i style="padding-left: 10px;"
+                                    class="fa-solid fa-video"></i></span><span><i style="padding-left: 10px;"
+                                    class="fa-solid fa-circle-plus"></i></span><span style="padding-left: 8px;">2</span>
+                        </p>
 
-</div>
-<div class="col-lg-2 " style="">
-<p style="background-color: #E9555D;text-align: center; font-size: 15px; ;"><a href="#" style="text-decoration: none; color: white;">VIEW SEATS</a></p>
-</div>
-</div>
+                    </div>
+                    <div class="col-lg-2">
 
-<!--Container-->  </div>
-<div class="container" style="background-color: #EEEDED; padding-bottom: 20px;font-family: 'Montserrat', sans-serif;  ">
-    <div class="row" style=" margin-top: 20px;margin-left: 70px;">
-        <div class=" col-lg-2 " style="text-align: end;">
-            <p style="font-size: 15px;font-weight: 600; padding-top: 18px;">Seat Price</p>
-        </div>
-        <div class="col-lg-1" style="padding-top: 6px;">
-            <button type="button" style="width: 100%;border-style: none;color: #fff; font-weight: 600;font-size: 15px;margin-top: 10px; text-align: center; background-color: #545454;" >All</button>
-    </div>
-    <div class="col-lg-1" style="padding-top: 6px;">
-        <button type="button" style="width: 100%;border-style: none;background-color: #fff; font-weight: 600;font-size: 15px;margin-top: 10px; text-align: center; color: #545454;" >2933</button>
-        <span style="color: #181717; font-size: 12px; padding-left: 20px; text-decoration:line-through;">3010</span>
-</div>
-<div class="col-lg-1" style="padding-top: 6px;">
-    <button type="button" style="width: 100%;border-style: none;background-color: #fff; font-weight: 600;font-size: 15px;margin-top: 10px; text-align: center; color: #545454;" >3093</button>
-    <span style="color: #181717; font-size: 12px; padding-left: 20px; text-decoration:line-through;">3170</span>
+                    </div>
+                    <div class="col-lg-2">
 
-</div>
-<div class="col-lg-1" style="padding-top: 6px;">
-<button type="button" style="width: 100%;border-style: none;background-color: #fff; font-weight: 600;font-size: 15px;margin-top: 10px; text-align: center; color: #545454;" >3913</button>
-<span style="color: #181717; font-size: 12px; padding-left: 20px; text-decoration:line-through;">3990</span>
+                    </div>
+                    <div class="col-lg-2">
 
-</div>
-<div class="col-lg-1" style="padding-top: 6px;">
-<button type="button" style="width: 100%;border-style: none;background-color: #fff; font-weight: 600;font-size: 15px;margin-top: 10px; text-align: center; color: #545454;" >4113</button>
-<span style="color: #181717; font-size: 12px; padding-left: 20px; text-decoration:line-through;">4190</span>
+                    </div>
+                    <div class="col-lg-1">
 
+                    </div>
+                    <div class="col-lg-1">
+                    </div>
+                </div>
+                <!---->
+                <div class="row bg-danger-subtle">
+                    <div class="col-lg-10">
 
-</div>
-    </div>
-    <hr style="height:2px;border-width:0;width:100%; color:black;background-color:black">
-    
-    <div class="row" style="">
-<div class="col-6 d-block" style="padding-left: 100px ;margin-top: 40px;">
-<div style="padding-left: 50px;">
-<p style="font-size: 13px; background-color: #D84E55;color: #fff;text-align: center;width:fit-content;">Click on an Available seat to proceed with your transaction.</p>
-</div>
+                    </div>
+                    <div class="col-lg-2 ">
+                        <p style="background-color: #E9555D;text-align: center; font-size: 15px; ;"><a href="#"
+                                style="text-decoration: none; color: white;">VIEW SEATS</a></p>
+                    </div>
+                </div>
+               
+                <!--Fourth Container Ends--></div>
+                <!--Fourth Container VIew Seats Starts-->
+                 <!--View Search-->
+                 <div class="container"
+                 style="background-color: #EEEDED; padding-bottom: 20px;font-family: 'Montserrat', sans-serif;  ">
+                 <div class="row" style=" margin-top: 20px;margin-left: 70px;">
+                     <div class=" col-lg-2 " style="text-align: end;">
+                         <p style="font-size: 15px;font-weight: 600; padding-top: 18px;">Seat Price</p>
+                     </div>
+                     <div class="col-lg-1" style="padding-top: 6px;">
+                         <button type="button"
+                             style="width: 100%;border-style: none;color: #fff; font-weight: 600;font-size: 15px;margin-top: 10px; text-align: center; background-color: #545454;">All</button>
+                     </div>
+                     <div class="col-lg-1" style="padding-top: 6px;">
+                         <button type="button"
+                             style="width: 100%;border-style: none;background-color: #fff; font-weight: 600;font-size: 15px;margin-top: 10px; text-align: center; color: #545454;">2933</button>
+                         <span
+                             style="color: #181717; font-size: 12px; padding-left: 20px; text-decoration:line-through;">3010</span>
+                     </div>
+                     <div class="col-lg-1" style="padding-top: 6px;">
+                         <button type="button"
+                             style="width: 100%;border-style: none;background-color: #fff; font-weight: 600;font-size: 15px;margin-top: 10px; text-align: center; color: #545454;">3093</button>
+                         <span
+                             style="color: #181717; font-size: 12px; padding-left: 20px; text-decoration:line-through;">3170</span>
 
-<div>
-<span>Lower Deck</span>
-<img src="./images/busticket.png" alt="">
-</div>
-<div style="padding-top: 10px;">
-<span>Upper Deck</span>
-<img src="./images/busticket1.png" alt="">
-</div>
-</div>
-<div class="col-6" style="margin-top:15px ; padding-left: 90px;">
-<p style="font-weight: 900; font-size:15px ; padding-left: 50px;">SEAT LEGEND</p>
-<div style="display: flex;padding-left: 50px; padding-top: 10px;">
-<div style="display: flex;">
-<button style="width: 40px;height: 20px;background-color:#fff;border-color: #545454;border-width: 1px;"></button><p style="font-size: 12px;font-weight: 300; padding-left: 10px;">Available</p>
-</div>
-<div style="display: flex; padding-left: 30px;">
-<button style=" width: 40px;height: 20px;background-color:#CBCBCB;border-color: #545454; border-width: 0;"></button><p style="font-size: 12px;font-weight: 100;padding-left: 10px;">Unavailable</p>
-</div>
+                     </div>
+                     <div class="col-lg-1" style="padding-top: 6px;">
+                         <button type="button"
+                             style="width: 100%;border-style: none;background-color: #fff; font-weight: 600;font-size: 15px;margin-top: 10px; text-align: center; color: #545454;">3913</button>
+                         <span
+                             style="color: #181717; font-size: 12px; padding-left: 20px; text-decoration:line-through;">3990</span>
 
-</div>
-<div style="display: flex;padding-left: 50px;">
-<button style=" width: 40px;height: 20px;background-color:#fff;border-color: red; border-width: 1px;"></button><p style="font-size: 12px;font-weight: 100;padding-left: 10px;">Female</p>
-</div>
+                     </div>
+                     <div class="col-lg-1" style="padding-top: 6px;">
+                         <button type="button"
+                             style="width: 100%;border-style: none;background-color: #fff; font-weight: 600;font-size: 15px;margin-top: 10px; text-align: center; color: #545454;">4113</button>
+                         <span
+                             style="color: #181717; font-size: 12px; padding-left: 20px; text-decoration:line-through;">4190</span>
 
 
-</div>
-<div>
+                     </div>
+                 </div>
+                 <hr style="height:2px;border-width:0;width:100%; color:black;background-color:black">
 
-</div>
-    </div>
-    
-</div>
-</div>
-    </div>
+                 <div class="row" >
+                     <div class="col-6 d-block" style="padding-left: 100px ;margin-top: 40px;">
+                         <div style="padding-left: 50px;">
+                             <p
+                                 style="font-size: 13px; background-color: #D84E55;color: #fff;text-align: center;width:fit-content;">
+                                 Click on an Available seat to proceed with your transaction.</p>
+                         </div>
+
+                         <div>
+                             <span>Lower Deck</span>
+                             <img src="./images/busticket.png" alt="">
+                         </div>
+                         <div style="padding-top: 10px;">
+                             <span>Upper Deck</span>
+                             <img src="./images/busticket1.png" alt="">
+                         </div>
+                     </div>
+                     <div class="col-6" style="margin-top:15px ; padding-left: 90px;">
+                         <p style="font-weight: 900; font-size:15px ; padding-left: 50px;">SEAT LEGEND</p>
+                         <div style="display: flex;padding-left: 50px; padding-top: 10px;">
+                             <div style="display: flex;">
+                                 <button
+                                     style="width: 40px;height: 20px;background-color:#fff;border-color: #545454;border-width: 1px;"></button>
+                                 <p style="font-size: 12px;font-weight: 300; padding-left: 10px;">Available</p>
+                             </div>
+                             <div style="display: flex; padding-left: 30px;">
+                                 <button
+                                     style=" width: 40px;height: 20px;background-color:#CBCBCB;border-color: #545454; border-width: 0;"></button>
+                                 <p style="font-size: 12px;font-weight: 100;padding-left: 10px;">Unavailable</p>
+                             </div>
+
+                         </div>
+                         <div style="display: flex;padding-left: 50px;">
+                             <button
+                                 style=" width: 40px;height: 20px;background-color:#fff;border-color: red; border-width: 1px;"></button>
+                             <p style="font-size: 12px;font-weight: 100;padding-left: 10px;">Female</p>
+                         </div>
+
+
+                     </div>
+                     <div>
+
+                     </div>
+                 </div>
+
+             </div>
+                <!--Fourth Container View Seats Ends-->
+            <div class="container"
+                style="height: fit-content; margin-top: 10px;font-family: 'Montserrat', sans-serif;  ">
+                <div class="row bg-danger-subtle" style="margin-top: 20px;padding-top: 20px;">
+                    <div class="col-lg-4">
+                        <p style="font-size: 15px;font-weight: 600;padding-top: 10px;">Egloo Travels</p>
+                    </div>
+                    <div class="col-lg-1 ">
+                        <p style="font-weight: 600;font-size: 20px;padding-top: 5px;text-align: center;">21:15</p>
+                    </div>
+                    <div class="col-lg-1">
+                        <p style="font-size: 14px;padding-top: 10px; text-align: center;">08h 15m</p>
+                    </div>
+                    <div class="col-lg-1">
+                        <p style="font-size: 20px;font-weight: 600; padding-top: 5px;text-align: center;">5:30</p>
+                    </div>
+                    <div class="col-lg-1" style="padding-top: 7px; ">
+                        <button type="button"
+                            style="border-radius: 5px;font-size:13px ; border-color: transparent;background-color: green;color: white; text-align: center;"><i
+                                class="fa-solid fa-star"></i>4.6</button>
+                    </div>
+                    <div class="col-lg-2">
+                        <p style="text-align: center;padding-top: 5px;">INR <span
+                                style="font-size: 20px;font-weight: 600;">1899</span></p>
+                    </div>
+                </div>
+                <!---->
+                <div class="row bg-danger-subtle">
+                    <div class="col-lg-6">
+                        <p style="font-size: 12px;">A/c Slepper(2+1)</p>
+                    </div>
+                    <div class="col-lg-1">
+                        <p style="color: red;font-weight: 200;">12-Aug</p>
+                    </div>
+                    <div class="col-lg-3">
+                        <p style="font-size: 15px;"><i class="fa-solid fa-users"></i><span
+                                style="padding-left: 10px;">706</span></p>
+                    </div>
+                    <div class="col-lg-2">
+                        <p style="font-size: 15px;font-weight: 300;">7 Seats available </p>
+                    </div>
+                </div>
+
+                <!---->
+                <div class="row bg-danger-subtle">
+                    <div class="col-lg-4">
+
+                    </div>
+                    <div class="col-lg-2">
+                        <p style="font-size: 12px;">Koyambedu</p>
+                    </div>
+
+                    <div class="col-lg-2">
+                        <p style="font-size: 12px;">Mattuthavani</p>
+                    </div>
+                    <div class="col-lg-2">
+
+                    </div>
+                    <div class="col-lg-2">
+                        <p style="font-size: 15px;font-weight: 300;">2 Single</p>
+                    </div>
+                </div>
+                <!---->
+                <div class="row bg-danger-subtle mb-0">
+                    <div class="col-lg-2" style="font-size: 15px;">
+                        <p><i class="fa-solid fa-bottle-water"></i><span><i style="padding-left: 10PX;"
+                                    class="fa-solid fa-charging-station"></i></span><i style="padding-left: 10px;"
+                                class="fa-solid fa-tv"></i><span><i style="padding-left: 10px;"
+                                    class="fa-solid fa-video"></i></span><span><i style="padding-left: 10px;"
+                                    class="fa-solid fa-circle-plus"></i></span><span style="padding-left: 8px;">2</span>
+                        </p>
+
+                    </div>
+                    <div class="col-lg-2">
+
+                    </div>
+                    <div class="col-lg-2">
+
+                    </div>
+                    <div class="col-lg-2">
+
+                    </div>
+                    <div class="col-lg-1">
+
+                    </div>
+                    <div class="col-lg-1">
+                    </div>
+                </div>
+                <!---->
+                <div class="row bg-danger-subtle">
+                    <div class="col-lg-10">
+
+                    </div>
+                    <div class="col-lg-2 " style="">
+                        <p style="background-color: #E9555D;text-align: center; font-size: 15px; ;"><a href="#"
+                                style="text-decoration: none; color: white;">VIEW SEATS</a></p>
+                    </div>
+                </div>
+
+                <!--Container-->
             </div>
+            <div class="container"
+                style="background-color: #EEEDED; padding-bottom: 20px;font-family: 'Montserrat', sans-serif;  ">
+                <div class="row" style=" margin-top: 20px;margin-left: 70px;">
+                    <div class=" col-lg-2 " style="text-align: end;">
+                        <p style="font-size: 15px;font-weight: 600; padding-top: 18px;">Seat Price</p>
+                    </div>
+                    <div class="col-lg-1" style="padding-top: 6px;">
+                        <button type="button"
+                            style="width: 100%;border-style: none;color: #fff; font-weight: 600;font-size: 15px;margin-top: 10px; text-align: center; background-color: #545454;">All</button>
+                    </div>
+                    <div class="col-lg-1" style="padding-top: 6px;">
+                        <button type="button"
+                            style="width: 100%;border-style: none;background-color: #fff; font-weight: 600;font-size: 15px;margin-top: 10px; text-align: center; color: #545454;">2933</button>
+                        <span
+                            style="color: #181717; font-size: 12px; padding-left: 20px; text-decoration:line-through;">3010</span>
+                    </div>
+                    <div class="col-lg-1" style="padding-top: 6px;">
+                        <button type="button"
+                            style="width: 100%;border-style: none;background-color: #fff; font-weight: 600;font-size: 15px;margin-top: 10px; text-align: center; color: #545454;">3093</button>
+                        <span
+                            style="color: #181717; font-size: 12px; padding-left: 20px; text-decoration:line-through;">3170</span>
+
+                    </div>
+                    <div class="col-lg-1" style="padding-top: 6px;">
+                        <button type="button"
+                            style="width: 100%;border-style: none;background-color: #fff; font-weight: 600;font-size: 15px;margin-top: 10px; text-align: center; color: #545454;">3913</button>
+                        <span
+                            style="color: #181717; font-size: 12px; padding-left: 20px; text-decoration:line-through;">3990</span>
+
+                    </div>
+                    <div class="col-lg-1" style="padding-top: 6px;">
+                        <button type="button"
+                            style="width: 100%;border-style: none;background-color: #fff; font-weight: 600;font-size: 15px;margin-top: 10px; text-align: center; color: #545454;">4113</button>
+                        <span
+                            style="color: #181717; font-size: 12px; padding-left: 20px; text-decoration:line-through;">4190</span>
+
+
+                    </div>
+                </div>
+                <hr style="height:2px;border-width:0;width:100%; color:black;background-color:black">
+
+                <div class="row" style="">
+                    <div class="col-6 d-block" style="padding-left: 100px ;margin-top: 40px;">
+                        <div style="padding-left: 50px;">
+                            <p
+                                style="font-size: 13px; background-color: #D84E55;color: #fff;text-align: center;width:fit-content;">
+                                Click on an Available seat to proceed with your transaction.</p>
+                        </div>
+
+                        <div>
+                            <span>Lower Deck</span>
+                            <img src="./images/busticket.png" alt="">
+                        </div>
+                        <div style="padding-top: 10px;">
+                            <span>Upper Deck</span>
+                            <img src="./images/busticket1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6" style="margin-top:15px ; padding-left: 90px;">
+                        <p style="font-weight: 900; font-size:15px ; padding-left: 50px;">SEAT LEGEND</p>
+                        <div style="display: flex;padding-left: 50px; padding-top: 10px;">
+                            <div style="display: flex;">
+                                <button
+                                    style="width: 40px;height: 20px;background-color:#fff;border-color: #545454;border-width: 1px;"></button>
+                                <p style="font-size: 12px;font-weight: 300; padding-left: 10px;">Available</p>
+                            </div>
+                            <div style="display: flex; padding-left: 30px;">
+                                <button
+                                    style=" width: 40px;height: 20px;background-color:#CBCBCB;border-color: #545454; border-width: 0;"></button>
+                                <p style="font-size: 12px;font-weight: 100;padding-left: 10px;">Unavailable</p>
+                            </div>
+
+                        </div>
+                        <div style="display: flex;padding-left: 50px;">
+                            <button
+                                style=" width: 40px;height: 20px;background-color:#fff;border-color: red; border-width: 1px;"></button>
+                            <p style="font-size: 12px;font-weight: 100;padding-left: 10px;">Female</p>
+                        </div>
+
+
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+
             </div>
-                 <!--Sidebar and Body Container-->   </div>
-<!--Footer-->
+        </div>
+    </div>
+    </div>
+    </div>
+    <!--Sidebar and Body Container--> </div>
+    <!--Footer-->
 
 
-<div class="container bg-body-tertiary mt-5 " style="max-width: 100%; background-color: #F1F1F1;">
-    <footer class="py-5 mb-0">
-      <div class="row">
-        <div class="col-6 col-md-2 mb-3" style="margin-left: 50px;">
-          <h5>TOP RTCs</h5>
-          <ul class="nav flex-column" style="font-weight: 400; padding-top: 10px;">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">APSRTC</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">GSRTC</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">MSRTC</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">TNSTC</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">View All</a></li>
-          </ul>
-        </div>
-  
-        <div class="col-6 col-md-2 mb-3">
-          <h5>Other</h5>
-          <ul class="nav flex-column"style="font-weight: 400; padding-top: 10px;" >
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">TSRTC</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">SBSTC</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">RSRTC</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Kerala RTC</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">View All</a></li>
-          </ul>
-        </div>
-  
-        <div class="col-6 col-md-2 mb-3">
-          <h5>Top bus routes</h5>
-          <ul class="nav flex-column" style="font-weight: 400; padding-top: 10px;">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Hyderbad to Bangalore Bus</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Bangalore to Chennai Bus</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pune to Bangalore Bus</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Mumbai to Bangalore Bus</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">View All</a></li>
-          </ul>
-        </div>
-        <div class="col-6 col-md-2 mb-3" style="padding-left: 50px;">
-            <h5>Top cities</h5>
-            <ul class="nav flex-column"style="font-weight: 400; padding-top: 10px;">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Hyderbad Bus Tickets</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Bangalore Bus Tickets</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Chennai Bus Tickets</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pune Bus Tickets</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">View All</a></li>
-            </ul>
-          </div>
-          <div class="col-6 col-md-2 mb-3" style="padding-left: 50px ; width: max-content;">
-            <h5>Tempo Traveller in Cities</h5>
-            <ul class="nav flex-column" style="font-weight: 400; padding-top: 10px;" >
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Tempo traveller in Bangalore</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Tempo traveller in Chennai</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Tempo traveller in Mumbai</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Tempo traveller in Hyderbad</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Tempo traveller in Ahnmedabad</a></li>
-            </ul>
-          </div>
-          <div class="container ">
-            <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
-              <div class="col ">
-                <a href="/" class="d-flex align-items-center  link-body-emphasis text-decoration-none">
-                  <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-                </a>
-                <p class="text-body-secondary">© 2023</p>
-              </div>
-          
-              <div class="col ">
-                <h5>About redBus</h5>
-                <ul class="nav flex-column">
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About us</a></li>
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Investor Relations</a></li>
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Contact us</a></li>
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Offers</a></li>
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Sitemap</a></li>
-                </ul>
-              </div>
-          
-              <div class="col">
-                <h5>Info</h5>
-                <ul class="nav flex-column">
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">T&C</a></li>
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Privacy policy</a></li>
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Blog</a></li>
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Bus operator registration</a></li>
-                </ul>
-              </div>
-          
-              <div class="col">
-                <h5>Global Sites</h5>
-                <ul class="nav flex-column">
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">India</a></li>
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Singapore</a></li>
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Malaysia</a></li>
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Indonesia</a></li>
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Peru</a></li>
-                </ul>
-              </div>
-          
-              <div class="col">
-                <h5>Our Partners</h5>
-                <ul class="nav flex-column">
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Goibibo Bus</a></li>
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Goibibo Hostels</a></li>
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Makemytrip Bus</a></li>
-                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Makemytrip Hostels</a></li>
-                </ul>
-              </div>
-            </footer>
-          </div>      
-          <div class="container">
-            <footer class="d-flex row row-cols-lg-2 py-lg-3 border-top" style="width: 100%;">
-              <div class="col mb-0" style="width: max-content;">
-                <p class="text-body-secondary">© 2023 redBus India Pvt Ltd.All rights reserved</p>
-              </div>
-          <div class="last">
-            <p><i class="fa-brands fa-x-twitter d-block px-3 " style="font-size: 25px;"></i></p>
-            <p><i class="fa-brands fa-instagram d-block px-4" style="font-size: 25px;"></i></p>
-            <p><i class="fa-brands fa-facebook d-block px-4" style="font-size: 25px;"></i></p>
-          </div>
-            </footer>
-          </div>      
-  
-    </footer>
-  </div>
+    <div class="container bg-body-tertiary mt-5 " style="max-width: 100%; background-color: #F1F1F1;">
+        <footer class="py-5 mb-0">
+            <div class="row">
+                <div class="col-6 col-md-2 mb-3" style="margin-left: 50px;">
+                    <h5>TOP RTCs</h5>
+                    <ul class="nav flex-column" style="font-weight: 400; padding-top: 10px;">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">APSRTC</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">GSRTC</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">MSRTC</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">TNSTC</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">View All</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Other</h5>
+                    <ul class="nav flex-column" style="font-weight: 400; padding-top: 10px;">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">TSRTC</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">SBSTC</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">RSRTC</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Kerala RTC</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">View All</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Top bus routes</h5>
+                    <ul class="nav flex-column" style="font-weight: 400; padding-top: 10px;">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Hyderbad to
+                                Bangalore Bus</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Bangalore to
+                                Chennai Bus</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pune to Bangalore
+                                Bus</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Mumbai to
+                                Bangalore Bus</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">View All</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-2 mb-3" style="padding-left: 50px;">
+                    <h5>Top cities</h5>
+                    <ul class="nav flex-column" style="font-weight: 400; padding-top: 10px;">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Hyderbad Bus
+                                Tickets</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Bangalore Bus
+                                Tickets</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Chennai Bus
+                                Tickets</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pune Bus
+                                Tickets</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">View All</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-2 mb-3" style="padding-left: 50px ; width: max-content;">
+                    <h5>Tempo Traveller in Cities</h5>
+                    <ul class="nav flex-column" style="font-weight: 400; padding-top: 10px;">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Tempo traveller
+                                in Bangalore</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Tempo traveller
+                                in Chennai</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Tempo traveller
+                                in Mumbai</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Tempo traveller
+                                in Hyderbad</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Tempo traveller
+                                in Ahnmedabad</a></li>
+                    </ul>
+                </div>
+                <div class="container ">
+                    <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+                        <div class="col ">
+                            <a href="/" class="d-flex align-items-center  link-body-emphasis text-decoration-none">
+                                <svg class="bi me-2" width="40" height="32">
+                                    <use xlink:href="#bootstrap"></use>
+                                </svg>
+                            </a>
+                            <p class="text-body-secondary">© 2023</p>
+                        </div>
+
+                        <div class="col ">
+                            <h5>About redBus</h5>
+                            <ul class="nav flex-column">
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About
+                                        us</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Investor
+                                        Relations</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Contact
+                                        us</a></li>
+                                <li class="nav-item mb-2"><a href="#"
+                                        class="nav-link p-0 text-body-secondary">Offers</a></li>
+                                <li class="nav-item mb-2"><a href="#"
+                                        class="nav-link p-0 text-body-secondary">Sitemap</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col">
+                            <h5>Info</h5>
+                            <ul class="nav flex-column">
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">T&C</a>
+                                </li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Privacy
+                                        policy</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Blog</a>
+                                </li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+                                </li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Bus
+                                        operator registration</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col">
+                            <h5>Global Sites</h5>
+                            <ul class="nav flex-column">
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">India</a>
+                                </li>
+                                <li class="nav-item mb-2"><a href="#"
+                                        class="nav-link p-0 text-body-secondary">Singapore</a></li>
+                                <li class="nav-item mb-2"><a href="#"
+                                        class="nav-link p-0 text-body-secondary">Malaysia</a></li>
+                                <li class="nav-item mb-2"><a href="#"
+                                        class="nav-link p-0 text-body-secondary">Indonesia</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Peru</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col">
+                            <h5>Our Partners</h5>
+                            <ul class="nav flex-column">
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Goibibo
+                                        Bus</a></li>
+                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Goibibo
+                                        Hostels</a></li>
+                                <li class="nav-item mb-2"><a href="#"
+                                        class="nav-link p-0 text-body-secondary">Makemytrip Bus</a></li>
+                                <li class="nav-item mb-2"><a href="#"
+                                        class="nav-link p-0 text-body-secondary">Makemytrip Hostels</a></li>
+                            </ul>
+                        </div>
+                    </footer>
+                </div>
+                <div class="container">
+                    <footer class="d-flex row row-cols-lg-2 py-lg-3 border-top" style="width: 100%;">
+                        <div class="col mb-0" style="width: max-content;">
+                            <p class="text-body-secondary">© 2023 redBus India Pvt Ltd.All rights reserved</p>
+                        </div>
+                        <div class="last">
+                            <p><i class="fa-brands fa-x-twitter d-block px-3 " style="font-size: 25px;"></i></p>
+                            <p><i class="fa-brands fa-instagram d-block px-4" style="font-size: 25px;"></i></p>
+                            <p><i class="fa-brands fa-facebook d-block px-4" style="font-size: 25px;"></i></p>
+                        </div>
+                    </footer>
+                </div>
+
+        </footer>
+    </div>
 </body>
+
 </html>
