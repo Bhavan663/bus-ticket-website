@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <title>RedBus - Passenger Details</title>
+</head>
+<body>
+    <style>
+        .pasinfo{
+            
+            border-radius: 15px;
+            background-color: #eee6e6;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .continfo{
+            border-radius: 15px;
+            background-color: #eee6e6;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .info{
+            border-radius: 15px;
+            background-color: #f7d384;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        .passenger-card {
+            border-radius: 15px;
+            background-color: #eceaea;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .contact-card {
+            border-radius: 15px;
+            background-color: #ede5e5;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .insurance-card {
+            border-radius: 15px;
+            background-color: #f5f5f5;
+            padding: 20px;
+            margin: 20px 0;
+        }
+    .benefits-block {
+        display: flex;
+        justify-content: space-around; /* You can also use 'space-between' or 'center' depending on your preference */
+        align-items: center; /* Vertically align items in the center if needed */
+    }
+    .withpptclink {
+    padding-top: 10px;
+}
+.continue-booking {
+    height: 10vh;
+    padding: 20px 10px 0;
+    text-align: left;
+    vertical-align: top;
+}
+:after, :before {
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+.custinfo {
+    height: 100vh;
+    background: #fff;
+    color: #4a4a4a;
+    position: fixed;
+    opacity: 1;
+    top: 0;
+    right: -50%;
+    width: 45%;
+    z-index: 10001;
+    transition: all .5s ease-in;
+    box-shadow: -5px 0 5px -3px #949393;
+    padding: 20px;
+}
+body {
+    color: #4a4a4a;
+    height: 100%;
+    overflow-y: scroll;
+    word-break: break-word;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+}
+    </style>
+    <div class="full" style="width: 50%; margin-left: 100%;">
+    <div class="container mt-5">
+        <h2 style="margin-left: 50%;">Passenger Details</h2>
+        <div class="form-header">
+            <img src="https://st.redbus.in/Images/rdc/rdc-redbus-logo.svg" alt="RedBus Logo" style="padding-bottom: 50px;">
+     
+        </div>
+        <hr>
+        <form>
+        </div>
+            <div class="passenger-card" style="border: 100px;">
+            <div class="mb-3">
+                <div class="pasinfo"><h2><i class="fas fa-user"></i> Passenger Information</h2></div>
+                <h1 style="font-size: small;">Passenger 1 |seat WL1</h1>
+                <label for="fullName" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="fullName" name="fullName" required>
+            </div>
+            <div class="mb-3">
+                <label for="age" class="form-label">Age</label>
+                <input type="number" class="form-control" id="age" name="age" required>
+            </div>
+            <div class="mb-3">
+                <label for="gender">Gender</label><br>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female" required>
+    <label for="female">Female</label>
+            </div>
+          <!-- ... (previous HTML code) ... -->
+
+<form>
+    <div class="mb-3">
+        <label for="cityResidence" class="form-label">City of Residence</label>
+        <input type="text" class="form-control" id="cityResidence" name="cityResidence">
+    </div>
+
+    <!-- ... (other form fields) ... -->
+
+    <div class="mb-3">
+        <label for="seatPreference" class="form-label">Seat Preference</label>
+        <select class="form-select" id="seatPreference" name="seatPreference">
+            <option value="" disabled selected>Select a seat preference</option>
+            <option value="window">Window</option>
+            <option value="aisle">Aisle</option>
+            <option value="middle">Middle</option>
+        </select>
+    </div>
+
+</form>
+
+
+<form>
+    <!-- ... (other form fields) ... -->
+    
+    <div class="mb-3">
+        <label for="statePreference" class="form-label">State Preference</label>
+        <select class="form-select" id="statePreference" name="statePreference">
+            <option value="" disabled selected>Select a state</option>
+            <option value="state1">State 1</option>
+            <option value="state2">State 2</option>
+            <!-- Add more state options as needed -->
+        </select>
+    </div>
+</form>
+
+<!-- ... (rest of the HTML code) ... -->
+
+<!-- ... (rest of the HTML code) ... -->
+
+
+<button type="submit" class="btn btn-primary">Continue</button>
+</form>
+</div>
+<div class="contact-card">
+   <div class="continfo"> <h3><i class="fas fa-address-card"></i> Contact Details</h3></div>
+    <div class="mb-3">
+    <div class="info">
+        <p class="mb-0">Your details will be sent to this contact.</p>
+    </div>
+        <label for="email" class="form-label"><i class="fas fa-envelope"></i> Email</label>
+        <input type="email" class="form-control" id="email" name="email" required>
+    </div>
+    <form>
+        <div class="mb-3 input-group">
+            <div class="input-group-prepend">
+                <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Country</button>
+                <div class="dropdown-menu">
+                    
+                    <a class="drop">+91 (India)</a>
+                    <!-- Add more country codes and names as needed -->
+                </div>
+            </div>
+            <input type="tel" class="form-control" id="phoneNumber" placeholder="Enter phone number">
+        
+    </form>
+    
+</div>
+</div>
+
+<div class="form-check mb-3">
+    <input class="form-check-input" type="checkbox" value="" id="hasGSTNumber">
+    <label class="form-check-label" for="hasGSTNumber">
+        I have a GST number (optional)?
+    </label>
+</div>
+
+<div class="whatsApp_block"><label class="checkbox_css"><input type="checkbox" id="whatsAppFeature" class="input-checkbox hide" checked=""><label for="whatsAppFeature" id="whatsAppFeatureCheckBox" class="checkmark"></label><span class="icon-whatsApp" ></span><span class="subscribe-txt"> <i class="fab fa-whatsapp"></i>Send booking details and updates on above WhatsApp number </span></label>
+</div>
+
+
+
+<div class="insurance-card">
+    <a target="_blank" class="tnc_link" href="https://www.redbus.in/info/ins_bcp_terms.html" style="margin-left: 90%;">T&amp;C Apply</a>
+    <h3><img src="https://st.redbus.in/images/insurance-section/rap_redbus.png" alt="img" width="40px"> redBus<p style="margin-left: 35px; font-size: small;">
+        Secure your trip just at ₹22 per passenger</p></h3>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="addInsurance">
+        <label class="form-check-label" for="addInsurance">
+            Add insurance coverage
+        </label>
+    </div>
+    <div class="benefits-block" style="background-color: rgb(253, 255, 254);">
+    <div>
+        <img class="benefits-img" width="70px" height="70px" src="https://st.redbus.in/images/insurance-section/bus_cancellation.png">
+        <div class="benefits-title" style="color: #38b87c;">Upto ₹ 500</div>
+        <div class="benefits-desc" style="color: #38b87c;">extra refund on ticket price if the bus is cancelled.</div>
+    </div>
+    <div>
+        <img class="benefits-img" width="70px" height="70px" src="https://st.redbus.in/images/insurance-section/hospital.png">
+        <div class="benefits-title " style="color: #38b87c;">Upto ₹ 75,000</div>
+        <div class="benefits-desc"style="color: #38b87c;">in the event of accidental hospitalisation</div>
+    </div>
+    <div>
+        <img class="benefits-img" width="70px" height="70px" src="https://st.redbus.in/images/insurance-section/accident.png">
+        <div class="benefits-title" style="color:  #38b87c;">Upto ₹ 5Lakh</div>
+        <div class="benefits-desc" style="color:  #38b87c;">in case of death/PTD/PPD</div>
+    </div>
+    </div>
+    <div class="insurance_container1">
+        <div class="bottomRow insurance-radio">
+            <label class="ins-container">
+                <input type="radio" id="insuranceOpted_rap" class="policyCheckBox policyCheckBoxtrueradio" name="policyCheckBox" value="yes">
+                <span class="checkmark-radio"></span></label>
+                <span>Yes, Protect my trip at </span>
+                <span class="ins_price">₹ 19</span>
+                <span class="noOfPsng">(1 passenger)</span> 
+                ,I agree to the 
+                <a href="https://www.redbus.in/info/ins_bcp_terms.html" target="_blank">Terms and Conditions</a>
+                <div>
+                    <input type="radio">
+                <label class="ins-container">No, I would like to proceed without redBus Assurance Program
+                    <span class="checkmark-radio">
+                    </div>
+                </span>
+                </label>
+                </div>
+
+                <div class="sc-keVrkP jNzeAp">
+                    <div class="addonsContainer"><div class="addonsBlockcss__IAddonsProps-sc-12kjrii-0 gwRjAf">
+           
+                    </div>
+                </div>
+            </div>
+            <div class="addOn_block padding-bttom-2"><div class="addOnTitle clearfix">
+                
+                <span class="fl p-title">redBus Cares: your contribution makes a difference!</span></div>
+                    <div class="subscribe-txt"><input type="checkbox"> <i class="fa-solid fa-hand-holding-dollar"></i>₹5 to support responsible tourism initiatives</div></div></label><div class="moreTnc-tooltip displayFlex">
+                        <a href="#">KNOW MORE</a>
+                        <span><ul class="addOnTnc"><ol><li class="addOnList"><span lang="EN-US">The amount received as donation will be used for charitable causes. redBus will donate the collected amount to MakeMyTrip Foundation (a public trust registered with charitable objects) or such other similar charitable organizations to help create a social impact.</span></li><li class="addOnList"><span lang="EN-US"><span id=":7og.co" class="tL8wMe EMoHub" dir="ltr">The contributions made will be refunded in case of cancellation of tickets.
+
+                        </span></span></li><li class="addOnList"><span lang="EN-US">You hereby voluntarily choose to contribute to the social cause and by proceeding to donate the money, you do so at own risk and expressly waive any and all claims, rights of action and/or remedies (under law or otherwise) that you may have against redBus arising out of or in connection with the aforesaid transaction.</span></li><li class="addOnList">
+                            <span lang="EN-US">By proceeding to donate the money, You understand and confirm that this donation is not from any foreign source as defined under Foreign Contribution Regulation Act, 2010.</span></li><li class="addOnList">No certificate under Section 80G of the Income Tax Act, 1961 will be issued.</li><li class="addOnList">In case of any queries, kindly reach out at "Help"/"Support" section of redBus.</li></ol></ul></span></div></div>
+</div>
+<div class="clearfix continue-booking withpptclink "><div class="pptnc-link">By clicking on proceed, I agree that I have read and understood the <a href="/info/termscondition" target="_blank">TnCs</a> and the <a href="/info/privacypolicy" target="_blank">Privacy Policy</a></div><div class="pR"><div class="booking-amt-details fl clearfix f-bold"><div class="booking-amt-title fl">Total Amount : </div><div class="booking-amt fl ">INR<span class="f-bold">600.00</span></div></div><div class="button-container fr "><input type="submit" class="btn btn-danger" value="Proceed to pay" ></div></div></div>
+                            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+  
+</body>
+</html>
