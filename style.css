@@ -145,6 +145,7 @@ gap: 20px;
     
     cursor: pointer;
 }
+<<<<<<< HEAD
 .footer {
     background-color: rgb(0, 0, 0);
     color: rgb(253, 253, 253);
@@ -173,3 +174,21 @@ gap: 20px;
 .red-button:hover {
     background-color: darkred;
 }
+=======
+.filter-titles{
+    font-size: 12px;
+}
+.fa-solid{
+    margin-left: 12px;
+    
+}
+.cbox-label{
+    margin-left: 13px;
+    font-size: 12px;
+}
+.amenities-btn{
+    width: fit-content;
+    margin-top: 12px;
+    font-size: 12px;
+}
+>>>>>>> eebb7bf0b4cd791ee3b8e57b1de33135fe540282
