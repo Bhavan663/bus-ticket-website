@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cancel Ticket</title>
+    <title>Show Ticket</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,7 +34,7 @@
                     <button onclick="window.location.href='https://www.redbus.in/';"
                         style="border-color: transparent; background-color: transparent;">
 
-                        <p style="width:100px; padding-top: 5px;">Bus Tickets</p>
+                        <p style="width:100px; padding-top: 5px;margin-top: 10px;"><a href="bussearch.html" style="text-decoration: none;color: #fff;">Bus Tickets</a> </p>
                     </button>
                 </div>
 
@@ -44,21 +44,21 @@
 
         <div class="navigation ">
             <div class=" d-flex" style="gap: 30px; padding-top: 10px;">
-                <p><i class="fa-solid fa-headset"></i><a href="#" class="link"><span
-                            style="padding-left: 5px;">Help</span></a></p>
+                <p><i class="fa-solid fa-headset"></i><a href="https://www.redbus.in/info/redcare" class="link"><span
+                            style="padding-left: 5px; color: white;">Help</span></a></p>
 
 
             </div>
 
-            <div class="dropdown" style="padding-top: 7px;">
+            <div class="dropdown" style="padding-top: 7px;"><span></span>
                 <button class="account dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"
-                    style="border-color: transparent; background-color:  rgb(216,79,87);">
+                    style="border-color: transparent; background-color:  rgb(216,79,87); color: white;">
                     Manage Booking
 
                 </button>
                 <ul class="dropdown-menu">
-                    <li><button class="dropdown-item" type="button">Cancel Ticket</button></li>
-                    <li><button class="dropdown-item" type="button">Booking History</button></li>
+                    <li><button class="dropdown-item" type="button"><a href="cancel.html">Cancel Ticket</a></button></li>
+                    <li><button class="dropdown-item" type="button"><a href="show.html">Show My Ticket</a></button></li>
                     <li><button type="button" class="dropdown-item"><a href="#" class="link">log-in /
                                 Sign-up</a></button></li>
                 </ul>
@@ -69,7 +69,7 @@
 
     <!--End of navigation bar-->
     <!-- COntainer -->
-    <div class="container mt-5">
+    <div class="container-fluid mt-5" style="font-family: 'Montserrat', sans-serif;">
         <!--Start of print content-->
         <div style="text-align: center; display: block;margin-bottom: 40px;">
             <div style=" font-size: 32px;color: #535559;margin-bottom: 34px;">
@@ -82,80 +82,90 @@
             </div>
         </div>
         <!--End of Print content-->
-        <div class="container">
-            <div class="row gap-2 justify-content-center">
-                <div class="col-4">
+        <div class="container-fluid">
+            <div class="row justify-content-center" style="gap: 80px;">
+                <div class="col-lg-3">
                     <div class="mb-3">
                         <label for="Ticket Number" class=form-lable style="font-weight: 600;font-size: 17px;">TICKET
                             NUMBER</label>
-                        <div class="d-flex gap-1" style="border-color: aqua;border-width: 50px;">
-                            <div style="margin-top: 12px;margin-left: 8px;margin-right: 8px;">
-                                <img src="https://www.redbus.in/images/tickets.png" alt="">
-                            </div>
-                            <div style="width: 100%;">
-                                <input
-                                    style="border-color: transparent; color: #404040;height: 48px;width: 85%; font-size: 14px;line-height: normal;"
-                                    type="text" class="form-control" id="ticketnumber"
-                                    placeholder="Enter your ticket number" required>
-
-                            </div>
+                        <div class="d-flex gap-1"
+                            style="margin-top: 10px;border-bottom: 1px solid #dbdbdb; border-color: #d2d2d2;">
+                            <span style="margin-top: 12px;margin-left: 8px;margin-right: 8px;"> <img
+                                    src="https://www.redbus.in/images/tickets.png" alt=""></span>
+                            <input
+                                style="border-color: transparent; color: #404040;height: 48px;width: 85%; font-size: 14px;line-height: normal;"
+                                type="text" class="form-control" id="ticketnumber"
+                                placeholder="Enter your ticket number" required>
                         </div>
-
                     </div>
                 </div>
-                <div class="col-4 ">
+                <div class="col-lg-3">
                     <div class="mb-3">
                         <label for="Ticket Number" class=form-lable style="font-weight: 600;font-size: 17px;">MOBILE
                             NUMBER</label>
-                        <div class="d-flex gap-1">
-                            <div style="margin-top: 12px;margin-left: 8px;margin-right: 8px;background-color: aqua;">
-                                <div style="width: 100%;">
-                                    <input
-                                        style="border-color: transparent; color: #404040; height: 48px; width: 85%; font-size: 14px; line-height: normal;"
-                                        type="tel" class="form-control" id="mobileNumber" placeholder="+91" required>
-                                </div>
-                            </div>
-                            <div style="width: 100%;">
-                                <input
-                                    style="border-color: transparent; color: #404040;height: 48px;width: 85%; font-size: 14px;line-height: normal;"
-                                    type="tel" class="form-control" id="ticketnumber" placeholder="" required>
-
-                            </div>
-                            <div class="ticketsubmit">
-                                <input type="submit" value="SUBMIT" class="search_btn red-button" id="ticketsearch">
-                            </div>
+                        <div class="d-flex gap-1"
+                            style="margin-top: 10px;border-bottom: 1px solid #dbdbdb; border-color: #d2d2d2;">
+                            <span style="margin-top: 12px;margin-left: 8px;margin-right: 8px;"> +91</span>
+                            <input
+                                style="border-color: transparent; color: #404040;height: 48px;width: 85%; font-size: 14px;line-height: normal;"
+                                type="text" class="form-control" id="ticketnumber"
+                                placeholder="Enter your mobile number" required>
 
                         </div>
                     </div>
-
-
                 </div>
 
             </div>
-        </div>
+            <div style="margin-left: 70%;margin-top: 10px;">
+
+                <input type="submit" value="SUBMIT" class="search_btn" id="ticketSearch"
+                    style="background-color: #d74f57; text-align: center;height: 50px;width: 125px; font-size: 15px;background-color: #da4d52;border-radius: 2px;color: #f8d1ce;border-width: 0;">
 
 
-    </div>
-    <div class="footer">
-        
-            <footer class="py-5 mb-0">
-              <div class="row">
-                <div class="col-6 col-md-2 mb-3" style="margin-left: 50px;">
-                    <div class="col">
-                        
-                        <ul class="nav flex-column">
-                            
-                          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">redBus is the world's largest online bus ticket booking service trusted by over 25 million happy customers globally. redBus offers bus ticket booking through its website,iOS and Android mobile apps for all major routes.</a></li>
-                          
-                        </ul>
-                      </div>
-                    </footer>
-        
+            </div>
         </div>
     </div>
-    
-    
+    <!--Footer-->
+    <div class="container-fluid" style="margin-top: 15px; background-color: #1b2330;">
+        <footer class="row  border-top " style=" min-width: 1000px;max-width: 1300px;overflow: hidden;">
+            <div class="col mb-3" style="padding: 30px 0;">
+                <div style="width: 350px;line-height: 27px;margin-right: 48px;margin-bottom: 1.5em;float: right;">
+                    <div class="img-cont" style="margin-left:0;margin-bottom: 10px;">
+                        <img src="https://s3.rdbuz.com/web/images/home/sgp/r_logo.png">
+                    </div>
+                    <div style="color: #fff;line-height: 27px;">
+                        redBus is the world's largest <a class="footerDescLink" style="text-decoration: none;font-weight: 500;color: #fff;"
+                            href="https://www.redbus.in/bus-tickets">online bus ticket booking</a> service trusted by
+                        over 25 million happy customers globally. redBus offers bus ticket booking through its
+                        website,iOS and Android mobile apps for all major routes.
+                    </div>
+                    <div id="social-media">
+                        <a rel="nofollow" target="_blank" href="https://www.facebook.com/redbus.in/"><span><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-facebook" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                                </svg></span></a>
+                        <a rel="nofollow" target="_blank" href="https://twitter.com/redBus_in"><span><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-twitter" viewBox="0 0 16 16">
+                                    <path
+                                        d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                                </svg></span></a>
 
+                    </div>
+                    <div style="color: #fff;float: left;" class="">
+                        <span>Ⓒ</span> <span> 2023 Redbus India Pvt Ltd. All rights reserved</span>
+                    </div>
+                </div>
+
+
+                <p class="text-body-secondary">© 2023</p>
+            </div>
+
+        </footer>
+    </div>
+    <!--End of Footer-->
 </body>
 
 </html>
