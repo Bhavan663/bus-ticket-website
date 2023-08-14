@@ -145,19 +145,35 @@ gap: 20px;
     
     cursor: pointer;
 }
-.filter-titles{
+
+.bus-label{
+    padding-top: 10px;
+    padding-left: 5px;
     font-size: 12px;
-}
-.fa-solid{
-    margin-left: 12px;
-    
-}
-.cbox-label{
-    margin-left: 13px;
-    font-size: 12px;
+    cursor: pointer;
 }
 .amenities-btn{
     width: fit-content;
     margin-top: 12px;
     font-size: 12px;
+}
+.rate{
+    width: 100%;
+    border-style: none;
+    background-color: #fff; 
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 10px; 
+    text-align: center;
+     color: #545454;
+}
+.rate:hover {
+background-color: #545454;
+color: #fff;
+}
+.rate-underline{
+    color: #181717;
+    font-size: 12px; 
+    padding-left: 20px; 
+    text-decoration:line-through;
 }
