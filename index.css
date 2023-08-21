@@ -1,0 +1,10 @@
+.wrapper{
+    height: 320px;
+background-color: aqua;
+    overflow-y: scroll;
+    font-size: 14px;
+font-weight: 500;
+
+}
+.wrapper::-webkit-scrollbar {
+    display: none;}
